@@ -1,0 +1,5 @@
+docker run --rm -it \
+    --name ikna.io \
+    -e BUNDLE_APP_CONFIG=.bundle \
+    -p 4000:4000 \
+    -v $(pwd):/srv/jekyll jekyll/jekyll $@
