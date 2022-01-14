@@ -1,0 +1,7 @@
+docker run --rm \
+    --name ikna.io \
+    -p 4000:4000 \
+    -d \
+    -v $(pwd):/srv/jekyll jekyll/jekyll:4.2.0 bash -c 'bundle install && apk add imagemagick && sleep infinity' || :
+
+docker exec -it ikna.io $@
