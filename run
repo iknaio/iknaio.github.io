@@ -1,5 +1,7 @@
-docker run --rm -it \
+docker run --rm \
     --name ikna.io \
-    -e BUNDLE_APP_CONFIG=.bundle \
     -p 4000:4000 \
-    -v $(pwd):/srv/jekyll jekyll/jekyll $@
+    -d \
+    -v $(pwd):/srv/jekyll jekyll/jekyll:4.2.0 bash -c 'bundle install && apk add imagemagick && sleep infinity' || :
+
+docker exec -it ikna.io $@

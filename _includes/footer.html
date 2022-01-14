@@ -1,0 +1,37 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper container-md">
+
+    <div class="navbar-brand"><img src="/assets/img/logo.svg"/></div>
+
+    <div class="row">
+      <div class="footer-col col-4">
+        <ul class="list-unstyled contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col col-4">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col col-4">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+

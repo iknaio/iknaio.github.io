@@ -1,0 +1,190 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1141px
+);
+
+$black: #000;
+$primary: #6bc2c2;
+$secondary: #c26b6b;
+$tertiary: #c2c26b;
+$dark: #031f35;
+$light: #cee8e8;
+$info: $tertiary;
+
+$body-color: #fff;
+
+$headings-font-family:        "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$headings-color: $light;
+
+$navbar-dark-color: $primary;
+
+$input-btn-font-family: $headings-font-family;
+
+// Configuration
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+// Layout & components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+// @import "images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+// @import "tables";
+// @import "forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+// @import "button-group";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+// @import "card";
+// @import "accordion";
+// @import "breadcrumb";
+// @import "pagination";
+// @import "badge";
+// @import "alert";
+// @import "progress";
+// @import "list-group";
+// @import "close";
+// @import "toasts";
+// @import "modal";
+// @import "tooltip";
+// @import "popover";
+@import "bootstrap/carousel";
+// @import "spinners";
+// @import "offcanvas";
+// @import "placeholders";
+
+// Helpers
+@import "bootstrap/helpers";
+
+// Utilities
+@import "bootstrap/utilities/api";
+// scss-docs-end import-stack
+
+body {
+    background: url("/assets/img/bg.jpg");
+    background-color: $dark;
+    background-size: cover;
+    background-position-y: -200px;
+    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
+}
+
+.navbar-brand img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.nav-item {
+    font-family: $headings-font-family;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.display-6 {
+    font-family: $headings-font-family;
+}
+
+.site-footer {
+    background-color: $dark;
+}
+
+mark {
+    color: $body-color;
+    font-weight: bold;
+    padding: 0;
+    background: linear-gradient(to top, $tertiary 0% 20%, transparent 20% 100%);
+}
+
+
+hr {
+    background: linear-gradient(to right, transparent, $light, transparent);
+    opacity: 0.75;
+}
+
+.section-lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    a {
+        background: linear-gradient(to top, $secondary 0% 20%, transparent 20% 100%);
+        text-decoration: none;
+        color: $body-color;
+        font-weight:bold;
+    }
+
+    a:hover {
+        background: linear-gradient(to top, $primary 0% 20%, transparent 20% 100%);
+        text-decoration: none;
+    }
+
+}
+
+.company-image {
+    width: 100%;
+    border-radius: 5px;
+    img {
+        box-shadow: 0 0.1rem 0.55rem rgba(206, 232, 232, 0.55);
+    }
+
+}
+
+.text-body {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    padding: $spacer;
+}
+
+@include media-breakpoint-up(sm) {
+    .company-image {
+        width: 75%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .company-image {
+        width: 85%;
+    }
+    .text-body {
+        font-size: 20px;
+        width: 85%;
+    }
+}
+
+section {
+    padding-top: $spacer * 2;
+    padding-bottom: $spacer * 2;
+}
+
+section.packages {
+    background-color: #c0e2e1;
+
+    h2 {
+        color: $dark;
+    }
+
+    hr {
+        background: linear-gradient(to right, transparent, $dark, transparent);
+        opacity: 0.75;
+    }
+    .package {
+        background-color: #f5fafa;
+        border-radius: 5px;
+    }
+}
+
