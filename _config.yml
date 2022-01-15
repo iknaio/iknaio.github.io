@@ -52,12 +52,14 @@ exclude:
   - .git
   - .bundle
   - sass
+  - run
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
 
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
