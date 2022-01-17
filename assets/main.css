@@ -3853,7 +3853,7 @@ progress {
   display: none !important;
 }
 
-.shadow {
+.shadow, section.packages .package {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -8481,7 +8481,17 @@ section {
 section.packages {
   background-color: #c0e2e1;
 }
-section.packages h2, section.packages .h2 {
+@media (max-width: 575.98px) {
+  section.packages .container-sm {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.packages .carousel-item {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+section.packages h2, section.packages .h2, section.packages h3, section.packages .h3 {
   color: #031f35;
 }
 section.packages hr {
@@ -8491,6 +8501,17 @@ section.packages hr {
 section.packages .package {
   background-color: #f5fafa;
   border-radius: 5px;
+  color: black;
+  padding: 1rem;
+}
+section.packages .package li {
+  padding-bottom: 0.5rem;
+}
+section.packages .package li.on {
+  list-style: url("/assets/img/on.svg");
+}
+section.packages .package li.off {
+  list-style: url("/assets/img/off.svg");
 }
 
 /*# sourceMappingURL=main.css.map */

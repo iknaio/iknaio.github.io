@@ -1,0 +1,35 @@
+<section class="packages" id="packages">
+    <div class="container-sm">
+        <h2>Packages</h2>
+        <hr>
+        <div id="carouselExampleControls" class="d-block d-sm-none carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval=false>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                {% include package_single_user.html %}
+            </div>
+            <div class="carousel-item">
+                {% include package_hosted.html %}
+            </div>
+            <div class="carousel-item">
+                {% include package_premise.html %}
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-none d-sm-block">
+            <div class="row justify-content-center">
+                {% include package_single_user.html %}
+                {% include package_hosted.html %}
+                {% include package_premise.html %}
+            </div>
+        </div>
+    </div>
+</section>
+
