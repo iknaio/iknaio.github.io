@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="container-sm">
+  <div class="text-body">
+  <h3>{{ page.title | escape }}</h3>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+  {{ content }}
   </div>
 
 </article>

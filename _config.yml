@@ -31,6 +31,9 @@ plugins:
   - jekyll-feed
   - jekyll-responsive-image
 
+header_pages:
+  - jobs.md
+  - about.markdown
 
 responsive_image:
   template: _includes/responsive-image.html

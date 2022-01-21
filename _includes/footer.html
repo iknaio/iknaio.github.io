@@ -3,21 +3,14 @@
 
   <div class="wrapper container-md">
 
-    <div class="navbar-brand"><img src="/assets/img/logo.svg"/></div>
 
     <div class="row">
       <div class="footer-col col-4">
+        <div class="navbar-brand"><img src="/assets/img/logo.svg"/></div>
         <ul class="list-unstyled contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
+            <li>© Iknaio Cryptoasset Analytics GmbH {{ 'now' | date: '%Y' }}</li>
+            <li>Vienna/Europe</li>
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
         </ul>
       </div>
 
@@ -25,8 +18,12 @@
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col col-4">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col col-4 text-end d-flex align-items-end justify-content-end">
+          <ul>
+          <li><a href="/imprint">Imprint</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/terms">Terms of service</a></li>
+          </ul>
       </div>
     </div>
 

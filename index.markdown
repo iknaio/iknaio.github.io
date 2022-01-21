@@ -5,5 +5,6 @@
 layout: home
 ---
 {% include intro.html %}
-{% include company.html %}
+{% include product.html %}
 {% include packages.html %}
+{% include jobs.html %}
