@@ -3883,7 +3883,7 @@ progress {
   display: none !important;
 }
 
-.shadow, section.packages .package {
+.shadow, section.packages .packages-banner {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -8517,7 +8517,7 @@ hr {
 
 .feature-image, .bio-image {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   box-shadow: 0 0.1rem 0.55rem rgba(206, 232, 232, 0.55);
   overflow: hidden;
 }
@@ -8565,7 +8565,7 @@ section {
 section.packages {
   background-color: #c0e2e1;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   section.packages .container-sm {
     padding-left: 0;
     padding-right: 0;
@@ -8587,10 +8587,13 @@ section.packages hr {
   opacity: 0.75;
 }
 section.packages .package {
+  border: solid 1px rgba(0, 0, 0, 0.125);
   background-color: #f5fafa;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   color: black;
   padding: 1rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
 }
 section.packages .package li {
   padding-bottom: 0.5rem;
@@ -8600,6 +8603,24 @@ section.packages .package li.on {
 }
 section.packages .package li.off {
   list-style: url("/assets/img/off.svg");
+}
+section.packages > div {
+  position: relative;
+}
+section.packages .packages-banner {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  background-color: #ffd94e;
+  z-index: 100;
+  position: absolute;
+  width: calc(100% - 2rem);
+  bottom: -1rem;
+  left: 0;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.32rem;
 }
 
 .jobs {
