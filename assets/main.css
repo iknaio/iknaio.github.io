@@ -8417,13 +8417,22 @@ progress {
   }
 }
 body {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+div.frame {
   background: url("/assets/img/bg.jpg");
+  background-position-x: center;
   background-color: #031f35;
   background-repeat: no-repeat;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
 main.page-content {
