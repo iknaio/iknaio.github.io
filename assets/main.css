@@ -8529,20 +8529,26 @@ hr {
   border-radius: 0.25rem;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  transform-style: preserve-3d;
 }
 
 .scene-left, .scene-right {
   perspective: 500px;
 }
+.scene-left .feature-image:hover, .scene-left .bio-image:hover, .scene-right .feature-image:hover, .scene-right .bio-image:hover {
+  transform: rotateY(0);
+  box-shadow: 0.1px 0 0 rgba(206, 232, 232, 0.55);
+}
 
 .scene-left .feature-image, .scene-left .bio-image {
   transform: rotateY(8deg);
-  box-shadow: -2px 0 0.1rem rgba(206, 232, 232, 0.55);
+  box-shadow: -2px 0 0 rgba(206, 232, 232, 0.55);
 }
 
 .scene-right .feature-image, .scene-right .bio-image {
   transform: rotateY(-8deg);
-  box-shadow: 2px 0 0.1rem rgba(206, 232, 232, 0.55);
+  box-shadow: 2px 0 0 rgba(206, 232, 232, 0.55);
 }
 
 .text-body {
