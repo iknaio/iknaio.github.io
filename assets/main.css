@@ -8454,10 +8454,10 @@ main.page-content {
 }
 
 .navbar .container-md {
-  align-items: end;
+  align-items: flex-end;
 }
 .navbar .navbar-collapse {
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 h1, .h1 {
