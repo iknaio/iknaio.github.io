@@ -8669,6 +8669,7 @@ section.packages .package li.on {
 }
 section.packages .package li.off {
   list-style: url("/assets/img/off.svg");
+  color: #c7d1d2;
 }
 section.packages > div {
   position: relative;
