@@ -8742,4 +8742,11 @@ article h2, article .h2 {
   margin: 1rem;
 }
 
+span.o3m41l:before {
+  content: attr(data-x) "@";
+}
+span.o3m41l:after {
+  content: attr(data-y);
+}
+
 /*# sourceMappingURL=main.css.map */
