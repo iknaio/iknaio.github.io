@@ -8675,9 +8675,6 @@ section.packages > div {
   position: relative;
 }
 section.packages .packages-banner {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 1rem;
   background-color: #ffd94e;
   z-index: 100;
   position: absolute;
