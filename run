@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -e JEKYLL_ENV=$JEKYLL_ENV -it ikna.io $@

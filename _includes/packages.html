@@ -1,0 +1,45 @@
+<section class="packages" id="packages">
+    <div class="container-lg">
+        <div class="text-body">
+            <h2>Packages</h2>
+            <hr>
+        </div>
+        <div id="carouselExampleControls" class="d-block d-md-none carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval=false>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                {% include package_1.html %}
+            </div>
+            <div class="carousel-item">
+                {% include package_2.html %}
+            </div>
+            <div class="carousel-item">
+                {% include package_3.html %}
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-none d-md-block">
+            <div class="row justify-content-around">
+                {% include package_1.html %}
+                {% include package_2.html %}
+                {% include package_3.html %}
+            </div>
+        </div>
+        <div class="packages-banner d-flex justify-content-center mx-2 px-1 py-3 text-nowrap">
+            Ready for order in Spring 2022!
+        </div>
+    </div>
+    <div class="container-lg mt-4">
+        <div class="d-flex justify-content-center mt-5">
+            <a class="btn btn-primary btn-lg my-5" role="button" aria-disabled="true" href="mailto:{{site.email}}">Contact us for more details:<br/><strong>{{ site.email }}</strong></a>
+        </div>
+    </div>
+</section>
+

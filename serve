@@ -1,0 +1,4 @@
+#! /bin/bash
+echo sass/iknaio.scss | entr sass sass/iknaio.scss assets/main.css &
+trap "kill $!; docker stop --time=1 ikna.io" EXIT
+./run bundle exec jekyll serve -H 0.0.0.0 

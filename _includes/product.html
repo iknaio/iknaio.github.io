@@ -1,0 +1,49 @@
+<section class="container-sm">
+    <div class="row d-flex flex-md-row flex-sm-row-reverse align-items-center justify-content-center">
+        <div class="col-md-4 pr-1">
+            <h3>Dashboard</h3>
+            <p>The dashboard allows users to visualize and understand cryptoasset flows.</p>
+        </div>
+        <div class="col-md-8 scene-right pl-2">
+            {% responsive_image path: assets/img/graph.jpg class: feature-image %}
+        </div>
+    </div>
+</section>
+<section class="container-sm mt-4">
+    <div class="row d-flex flex-row-reverse align-items-center justify-content-center">
+        <div class="col-md-4 pl-1">
+            <h3>Programmatic access</h3>
+            <p>Our solution is a fully-fledged data science platform tailored to cryptoasset analytics tasks. Customers can use our API for automated, highly efficient forensics tasks.</p>
+        </div>
+        <div class="col-md-8 scene-left pr-2">
+            {% responsive_image path: assets/img/code.jpg class: feature-image %}
+        </div>
+    </div>
+</section>
+<section class="container-sm mt-4 text-center">
+    <h3>Supported assets</h3>
+    <div class="row justify-content-center">
+        <div class="currency col-2">
+            {% include currency.svg currency='btc' %}
+        </div>
+        <div class="currency col-2">
+            {% include currency.svg currency='zec' %}
+        </div>
+        <div class="currency col-2">
+            {% include currency.svg currency='eth' %}
+        </div>
+        <div class="currency col-2">
+            {% include currency.svg currency='ltc' %}
+        </div>
+        <div class="currency col-2">
+            {% include currency.svg currency='bch' %}
+        </div>
+    </div>
+    <div class="row">
+        <p>We support UTXO-model ledgers like Bitcoin, Bitcoin Cash, Litecoin, and Zcash as well as account-model blockchains like Ethereum.</p>
+    </div>
+</section>
+<section class="container-sm mt-4 text-center">
+    <h3>Full data sovereignty</h3>
+    <p>Our solution relies on full data sovereignty, algorithmic transparency, and scalability. It is hosted entirely in Europe, and with our partners, we are building a comprehensive attribution tag collection.</p>
+</section>

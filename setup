@@ -1,0 +1,24 @@
+#! /bin/bash
+echo "Trying to start existing container ..."
+docker start ikna.io
+if [ $? -gt 0 ]; then
+    echo "Creating container ..."
+    docker run \
+        --name ikna.io \
+        -p 4000:4000 \
+        -d \
+        -v $(pwd):/srv/jekyll jekyll/jekyll:4.2.0 \
+        bash -c "bundle install && apk add imagemagick && sleep infinity" 
+    echo "Waiting for bundles to install ..."
+    while [ -z "$found" ]; do
+        line=`docker logs ikna.io | tail -n 1`
+        echo -n "$line" $'\r'
+        found=`echo $line | grep 'OK:'`
+        sleep 1
+    done
+    echo "Done."
+    echo "./serve to run a development server"
+    echo "./build for a production build"
+    echo "./run to run any command in the jekyll container"
+    echo "./push for pushing to gh-pages"
+fi
