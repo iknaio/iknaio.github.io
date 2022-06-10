@@ -20,6 +20,6 @@ Usage:
 {% assign biggest = resized | first %}
 
 <div class="{{class}}">
-    <img class="w-100" src="/{{ biggest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}">
+    <img class="w-100" style="{{imgstyle}}" src="/{{ biggest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}">
 
 </div>
