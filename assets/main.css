@@ -8714,6 +8714,9 @@ section.packages .price span {
 .partner img.bmf {
   background-color: white;
 }
+.partner img.waw {
+  width: 40%;
+}
 
 .jobs {
   background-color: #202728;
