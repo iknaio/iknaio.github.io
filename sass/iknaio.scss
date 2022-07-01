@@ -409,6 +409,13 @@ section.packages {
     }
 }
 
+.partner img {
+    width: 100%;
+    &.bmf {
+        background-color: white;
+    }
+}
+
 .jobs {
     background-color: #202728;
     min-height: 22rem;

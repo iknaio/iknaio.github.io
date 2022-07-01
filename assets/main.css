@@ -8708,6 +8708,13 @@ section.packages .price span {
   background: linear-gradient(to top, #6bc2c2 0% 20%, transparent 20% 100%);
 }
 
+.partner img {
+  width: 100%;
+}
+.partner img.bmf {
+  background-color: white;
+}
+
 .jobs {
   background-color: #202728;
   min-height: 22rem;
