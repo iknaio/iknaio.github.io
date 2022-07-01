@@ -3,7 +3,7 @@ layout: page
 title: About us
 ---
 <p>
-Dr. Ross King and Dr. Bernhard Haslhofer, among the world's leading scientists in the research field of cryptoasset analytics, have teamed up to transform their scientific results into a revolutionary forensic solution - the GraphSense Cryptoasset Analytics Platform. Responding to increasing demand, Iknaio Cryptoasset Analytics now provides professional services around this platform. These services should help mitigate illicit activities with the ultimate goal of making the use of cryptoassets safer.
+Founded in 2021, Iknaio provides operational services around the open-source analytics platform GraphSense. It consists of an API for highly efficient forensic tasks and an interactive dashboard that allows users to visualize and understand cryptoasset flows. All services are hosted in Europe. Iknaio offers these services to investigators from national authorities, law enforcement agencies, security companies, and the payment industry to help them uncover and trace criminally relevant crypto-based transactions in detail. Iknaio also offers several customer-specific extensions built on top of GraphSense.
 </p>
 
 {% include bio.html name='Dr. Bernhard Haslhofer' image='Bernhard_Haslhofer.jpg' bio='Bernhard has been leading research and development around GraphSense for more than six years, is a primary contributor to the open-source code base, and is a co-founder of Iknaio. He has a Ph.D. in Computer Science, spent his PostDoc years at Cornell University, and has been working in cryptoasset analytics since the early days of Bitcoin. He also leads the CryptoFinance research group at the Complexity Science Hub Vienna.' %}
