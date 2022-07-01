@@ -9,7 +9,7 @@ serve: setup
 
 push: setup build
 	cd _site && \
-		git commit -m 'generate' -a \
+		git commit -m 'generate' -a && \
 		git push
 
 
