@@ -8547,13 +8547,13 @@ hr {
   padding-top: 5rem;
   padding-bottom: 9rem;
 }
-.section-lead a {
+.section-lead a.bold {
   background: linear-gradient(to top, #c26b6b 0% 20%, transparent 20% 100%);
   text-decoration: none;
   color: #f0f0f0;
   font-weight: bold;
 }
-.section-lead a:hover {
+.section-lead a.bold:hover {
   background: linear-gradient(to top, #6bc2c2 0% 20%, transparent 20% 100%);
   text-decoration: none;
 }
@@ -8658,8 +8658,9 @@ section.packages .package {
   border-radius: 0.25rem;
   color: black;
   padding: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
   margin: 0 auto;
+  position: relative;
 }
 section.packages .package li {
   padding-bottom: 0.5rem;
@@ -8694,6 +8695,19 @@ section.packages .packages-banner:hover {
 section.packages .btn {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+section.packages .price {
+  text-align: center;
+  position: absolute;
+  bottom: 5rem;
+  font-style: italic;
+  font-size: 115%;
+  letter-spacing: 0.03rem;
+  width: calc(100% - 2rem);
+}
+section.packages .price span {
+  background: linear-gradient(to top, #6bc2c2 0% 20%, transparent 20% 100%);
+}
+
 .jobs {
   background-color: #202728;
   min-height: 22rem;
