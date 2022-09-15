@@ -8658,7 +8658,6 @@ section.packages .package {
   border-radius: 0.25rem;
   color: black;
   padding: 1rem;
-  padding-bottom: 7rem;
   margin: 0 auto;
   position: relative;
 }
@@ -8697,8 +8696,6 @@ section.packages .btn {
 }
 section.packages .price {
   text-align: center;
-  position: absolute;
-  bottom: 5rem;
   font-style: italic;
   font-size: 115%;
   letter-spacing: 0.03rem;
