@@ -130,6 +130,13 @@ footer .navbar-brand {
     }
 }
 
+.navbar-nav {
+    align-items: center;
+    .nav-link {
+        padding-top: 0;
+    }
+}
+
 h1 {
     font-weight: bold;
 }
@@ -464,6 +471,20 @@ article h2 {
     border-radius: 100%;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5) inset;
     margin: $spacer;
+}
+
+table {
+    border: 1px solid $light;
+    margin-top: 2*$spacer;
+    margin-bottom: 2*$spacer;
+    td, th {
+        padding-left : $spacer;
+        padding-right : $spacer;
+        border-left: 1px solid $light;
+    }
+    th {
+        padding-bottom: $spacer;
+    }
 }
 
 @import "email-obfuscator";
