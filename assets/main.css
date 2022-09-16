@@ -8472,6 +8472,13 @@ footer .navbar-brand {
   justify-content: flex-end;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+}
+
 h1, .h1 {
   font-weight: bold;
 }
@@ -8759,6 +8766,20 @@ article h2, article .h2 {
   border-radius: 100%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;
   margin: 1rem;
+}
+
+table {
+  border: 1px solid #cee8e8;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+table td, table th {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #cee8e8;
+}
+table th {
+  padding-bottom: 1rem;
 }
 
 span.o3m41l:before {
