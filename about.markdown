@@ -16,6 +16,4 @@ Founded in 2021, Iknaio provides operational services around the open-source ana
 
 {% include bio.html name='Michael Fröwis, Ph.D.' image='Michael_Froewis.jpg' imgstyle='top:0px' bio='Michael Fröwis has 5+ years of experience in cryptoasset analytics. He recently finished his Ph.D. in Computer Science, at the University of Innsbruck. His main research interest are program analysis techiques for cryptoasset analytics. During his studies he worked on multiple international research projects focusing on law enforcement in the crypto-space.' %}
 
-{% include bio.html name='Artemiy Malyshau' image='Artemiy_Malyshau.jpg' imgstyle='top:-20px' bio='Artemiy Malyshau is an undergraduate at King\'s College London studying Electronic Engineering, specializing in computing and mathematics. He works as a Data Scientist at Iknaio, primarily focusing on Cryptoasset Analysis, having previously contributed to the GraphSense TagPack infrastructure.' %}
-
 {% include bio.html name='Karl Zettl' image='Karl_Zettl.jpg' bio='Karl Zettl is co-founder and CEO of Iknaio Cryptoasset Analytics GmbH and is responsible for sales and marketing and business development. He has been working in different management positions in project management, business development, and sales for more than 15 years, focusing on the payment industry for CEE and DACH region.' %}
