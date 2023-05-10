@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blockchain Analytics Pilot in Bavaria
+---
+
+Date: June 22nd, 2022
+
+Bavaria’s Minister of Justice Georg Eisenreich, together with Rogér Pellemans, Director National Security of the Netherlands organisation for applied scientific research TNO, and Prof. Dr. Stefan Thurner, President of the Complexity Science Hub Vienna (CSH), signed a memorandum of understanding in the Munich Palace of Justice. The aim is to further equip itself for investigations on the Internet with CSH as a new partner in the pilot contributing with of blockchain analysis.
+
+TODO: add Image
+
+For two years, Bavaria’s special prosecutors have been supporting TNO and CFLW Cyber Strategies in the development of Dark Web Monitor – a kind of search engine for the Darknet. Now blockchain experts from Vienna are also getting involved in the joint project. Eisenreich: “This should enable our investigators from the Central Office on Cybercrime Bavaria (ZCB) to follow Bitcoin and other cryptocurrencies more quickly in the future to convict the perpetrators. This can lead to important new investigative approaches to combat child pornography on the darknet. Valuable insights could also be gained in the prosecution of illegal cybertrading platforms at an early stage of the investigation. With the blockchain analysis tool GraphSense, we want to bring more light into the darknet.”
+
+GraphSense is an open-source analysis tool that can be used to track and analyze payment flows in various cryptocurrency systems. Cryptocurrencies play a decisive role in ZCB investigations in a wide variety of cases, especially in the laundering of criminal proceeds. Eisenreich said: “Data that can be viewed by everyone on the public blockchains offers valuable investigative approaches. With GraphSense, the specialists at the ZCB can quickly identify these investigative approaches and thus better convict perpetrators.”
+
+Research and development around GraphSense are coordinate by Dr. Bernhard Haslhofer, leader of the CryptoFinance research group at CSH. Iknaio Cryptoasset Analytics GmbH provides professional services around this platform, like hosting or building customized solutions for clients.
