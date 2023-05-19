@@ -1,0 +1,13 @@
+<div class="package-frame col-xs-12 col-sm-8 col-lg-4">
+    <div class="package">
+        <h3>{{include.name | capitalize}}</h3>
+        <img src="/assets/graphics/pricing_{{include.name}}.svg"/>
+        <h4>{{include.products}}</h4>
+        <hr>
+        <ul>
+            <li class="on">{{include.rpm}} requests per month&nbsp;</li>
+        </ul>
+        <div class="price"><span class="number">€{{include.price}}</span><span class="period">/month</span></div>
+        {% include orderbutton.html package=include.name %}
+    </div>
+</div>
