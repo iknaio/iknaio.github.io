@@ -10,18 +10,21 @@ $black: #000;
 $primary: #6bc2c2;
 $secondary: #c26b6b;
 $tertiary: #c2c26b;
-$dark: #fff;
-$light: #cee8e8;
+$dark: #000;
+$bg-color: white;
+$bg-grey: #f7f7f9ff;
 $info: $tertiary;
 
-$body-color: #f0f0f0;
+$body-color: #333;
+
+$light: $body-color;
 
 $headings-font-family:        "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $headings-color: $light;
 $font-size-base: 1.2rem;
 
-$navbar-dark-color: $primary;
+$navbar-dark-color: $body-color;
 
 $input-btn-font-family: $headings-font-family;
 
@@ -72,13 +75,13 @@ $input-btn-font-family: $headings-font-family;
 // scss-docs-end import-stack
 
 body {
-    background-color: #272727;
+    background-color: $bg-color;
     min-height: 100vh;
 }
 
 div.frame {
     background-position-x: center;
-    background-color: $dark;
+    background-color: $bg-color;
     background-repeat: no-repeat;
     font-family: Roboto, sans-serif;
     display: flex;
@@ -215,32 +218,55 @@ hr {
     opacity: 0.75;
 }
 
-.section-lead {
-    background: url("/assets/graphics/bg_head.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 9rem;
-    a.bold {
-        background: linear-gradient(to top, $secondary 0% 20%, transparent 20% 100%);
-        text-decoration: none;
-        color: $body-color;
-        font-weight:bold;
+.intro {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    .logo, .section-lead {
+        background-color: $bg-grey;
+        padding-top: 4rem;
     }
-
-    a.bold:hover {
-        background: linear-gradient(to top, $primary 0% 20%, transparent 20% 100%);
-        text-decoration: none;
+    .logo {
+        margin-bottom: -3vh;
     }
-
-    &:first-child {
-        display: flex;
-        justify-content: center;
-
+    .cta {
+        margin-top: 4rem;
+        .btn {
+            font-size: $font-size-base * 1.5 !important;
+            width: 300px;
+            display:inline-block;
+        }
     }
+    .section-lead {
+        background-image: url("/assets/graphics/bg_head.svg");
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size: cover;
+        min-height: min(21vw, 400px);
+        max-height: 400px;
+        padding-bottom: 9rem;
+        a.bold {
+            background: linear-gradient(to top, $secondary 0% 20%, transparent 20% 100%);
+            text-decoration: none;
+            color: $body-color;
+            font-weight:bold;
+        }
+
+        a.bold:hover {
+            background: linear-gradient(to top, $primary 0% 20%, transparent 20% 100%);
+            text-decoration: none;
+        }
+
+        /*
+        &:first-child {
+            display: flex;
+            justify-content: center;
+
+        }
+        */
+}
+
 }
 
 $feature-image-box-shadow: 2px;

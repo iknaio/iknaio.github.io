@@ -4,13 +4,13 @@
 
 layout: home
 ---
-<!-- {% include intro.html %}
+{% include intro.html %}
 {% include product.html %}
 {% include packages.html %}
 {% include partners.html %}
 {% include jobs.html %}
- -->
 
+<!---
 # Our Services
 
 ## Pathfinder
@@ -41,3 +41,4 @@ TODO: add partner logos
 
 TODO: add job overview as illustrated by Liu
 
+-->
