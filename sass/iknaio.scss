@@ -225,11 +225,15 @@ hr {
     opacity: 0.75;
 }
 
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+
 .intro {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
     .logo, .section-lead {
         background-color: $bg-grey;
         padding-top: $spacer * 4;
@@ -362,7 +366,7 @@ section {
 
 }
 
-section.product {
+.product {
     h3 {
         img {
             height: $h3-font-size * 1.5;
@@ -376,8 +380,11 @@ section.product {
         width: 80%;
     }
 }
+section.white {
+    background-color: $bg-color;
+}
 
-section.packages, section.partners {
+section.grey {
     background-color: $bg-grey;
 }
 section.packages {

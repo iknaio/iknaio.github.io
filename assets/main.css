@@ -7536,11 +7536,14 @@ hr {
   opacity: 0.75;
 }
 
+header {
+  border-bottom: 1px solid #ddd;
+}
+
 .intro {
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
 }
 .intro .logo, .intro .section-lead {
   background-color: #f7f7f9;
@@ -7659,17 +7662,21 @@ section h2, section .h2 {
   margin-bottom: 0;
 }
 
-section.product h3 img, section.product .h3 img {
+.product h3 img, .product .h3 img {
   height: 3.15rem;
   margin-right: 1rem;
 }
-section.product .btn {
+.product .btn {
   margin-top: 3rem;
   display: block;
   width: 80%;
 }
 
-section.packages, section.partners {
+section.white {
+  background-color: white;
+}
+
+section.grey {
   background-color: #f7f7f9;
 }
 
