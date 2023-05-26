@@ -36,8 +36,9 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - jobs.md
-  - about.markdown
+  - services.md
+  - documentation.md
+  - projects.html
 
 responsive_image:
   template: _includes/responsive-image.html

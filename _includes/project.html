@@ -1,0 +1,15 @@
+<a class="project" href="{{include.post.url}}">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="p-4">
+                <img src="{{include.post.image}}">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="project-date">{{include.post.date | date: "%B %e, %Y"}}</div>
+            <h4>{{include.post.title}}</h4>
+            <p>{{include.post.excerpt}}</p>
+        </div>
+    </div>
+</a>
+

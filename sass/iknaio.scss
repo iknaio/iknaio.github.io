@@ -510,7 +510,7 @@ section.packages {
     }
 }
 
-section.projects {
+a.project {
     img {
         width: 100%;
         border-radius: 20px;
@@ -527,9 +527,18 @@ section.projects {
         color: $body-light-color;
     }
     
-    &> a {
-        text-decoration: none;
-    }
+    text-decoration: none;
+}
+
+.page-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: $bg-grey;
+    background-image: url("/assets/graphics/bg_head.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
 .jobs {
@@ -551,7 +560,7 @@ section.projects {
         td {
             padding: $spacer;
 
-            &.title {
+            a {
                 font-weight: bold;
             }
         }
@@ -577,8 +586,12 @@ section.projects {
 }
 
 
-article h2 {
-    font-weight: normal;
+article {
+    padding-top: $spacer * 3;
+    padding-bottom: $spacer * 3;
+    h2 {
+        font-weight: normal;
+    }
 }
 
 .bio-image {

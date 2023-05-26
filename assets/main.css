@@ -7780,22 +7780,33 @@ section.packages .btn {
   width: 40%;
 }
 
-section.projects img {
+a.project {
+  text-decoration: none;
+}
+a.project img {
   width: 100%;
   border-radius: 20px;
   height: 250px;
   object-fit: cover;
 }
-section.projects h4, section.projects .h4 {
+a.project h4, a.project .h4 {
   font-weight: bold;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-section.projects .project-date {
+a.project .project-date {
   color: #555;
 }
-section.projects > a {
-  text-decoration: none;
+
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: #f7f7f9;
+  background-image: url("/assets/graphics/bg_head.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
 
 .jobs {
@@ -7816,7 +7827,7 @@ section.projects > a {
 .jobs table td {
   padding: 1rem;
 }
-.jobs table td.title {
+.jobs table td a {
   font-weight: bold;
 }
 .jobs table tr {
@@ -7834,6 +7845,10 @@ section.projects > a {
   border-bottom: 1px grey solid;
 }
 
+article {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 article h2, article .h2 {
   font-weight: normal;
 }

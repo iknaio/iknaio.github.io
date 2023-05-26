@@ -1,19 +1,6 @@
 <section class="container-sm projects">
     <h2>Projects</h2>
-    <a href="{{site.posts.first.url}}">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="p-4">
-                    <img src="{{site.posts.first.image}}">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="project-date">{{site.posts.first.date | date: "%B %e, %Y"}}</div>
-                <h4>{{site.posts.first.title}}</h4>
-                <p>{{site.posts.first.excerpt}}</p>
-            </div>
-        </div>
-    </a>
+    {% include project.html post=site.posts.first %}
     <div class="row justify-content-center pt-5">
         <div class="col-6 d-flex justify-content-center">
             <a href="/posts" class="btn btn-secondary btn-lg">More about our projects</a>
