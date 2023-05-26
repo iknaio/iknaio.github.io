@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Digital Product Designer (part-time)
+location: Hybrid (Vienna / Anywhere)
 ---
 
-Location: Hybrid (Vienna / Anywhere)
 
 
 We are seeking a talented and experienced digital product designer to join our team. As a digital product designer, you will be responsible for creating and designing innovative and engaging digital products, interfaces, and experiences for our clients.

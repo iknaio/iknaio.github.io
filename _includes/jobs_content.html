@@ -1,5 +1,19 @@
-<ul>
-    <li><a href="/jobs/designer">Digital Product Designer</a></li>
-    <li><a href="/jobs/full_stack">Full Stack Engineer</a></li>
-</ul>
+<table>
+    <thead>
+        <tr>
+            <td>Position</td>
+            <td>Location</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for job in site.jobs %}
+        <tr>
+            <td class="title"><img src="/assets/graphics/icon_person.svg"/>{{job.title}}</td>
+            <td>{{job.location}}</td>
+            <td><a href="{{job.url}}" class="btn btn-secondary">Apply</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 

@@ -2,8 +2,10 @@
     <h2>Projects</h2>
     <a href="{{site.posts.first.url}}">
         <div class="row align-items-center">
-            <div class="col-md-6 pr-1">
-                <img src="{{site.posts.first.image}}">
+            <div class="col-md-6">
+                <div class="p-4">
+                    <img src="{{site.posts.first.image}}">
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="project-date">{{site.posts.first.date | date: "%B %e, %Y"}}</div>
@@ -12,5 +14,10 @@
             </div>
         </div>
     </a>
+    <div class="row justify-content-center pt-5">
+        <div class="col-6 d-flex justify-content-center">
+            <a href="/posts" class="btn btn-secondary btn-lg">More about our projects</a>
+        </div>
+    </div>
 </section>
 

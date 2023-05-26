@@ -23,7 +23,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #6bc2c2;
-  --bs-secondary: #c26b6b;
+  --bs-secondary: #333;
   --bs-success: #198754;
   --bs-info: #c2c26b;
   --bs-warning: #ffc107;
@@ -31,7 +31,7 @@
   --bs-light: #333;
   --bs-dark: #000;
   --bs-primary-rgb: 107, 194, 194;
-  --bs-secondary-rgb: 194, 107, 107;
+  --bs-secondary-rgb: 51, 51, 51;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 194, 194, 107;
   --bs-warning-rgb: 255, 193, 7;
@@ -93,7 +93,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #333;
@@ -1710,7 +1710,7 @@ progress {
 }
 .btn {
   display: inline-block;
-  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #333;
@@ -1774,33 +1774,33 @@ progress {
 }
 
 .btn-secondary {
-  color: #000;
-  background-color: #c26b6b;
-  border-color: #c26b6b;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 .btn-secondary:hover {
-  color: #000;
-  background-color: #cb8181;
-  border-color: #c87a7a;
+  color: #fff;
+  background-color: #2b2b2b;
+  border-color: #292929;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
-  color: #000;
-  background-color: #cb8181;
-  border-color: #c87a7a;
-  box-shadow: 0 0 0 0.25rem rgba(165, 91, 91, 0.5);
+  color: #fff;
+  background-color: #2b2b2b;
+  border-color: #292929;
+  box-shadow: 0 0 0 0.25rem rgba(82, 82, 82, 0.5);
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
-  color: #000;
-  background-color: #ce8989;
-  border-color: #c87a7a;
+  color: #fff;
+  background-color: #292929;
+  border-color: #262626;
 }
 .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(165, 91, 91, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(82, 82, 82, 0.5);
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
-  color: #000;
-  background-color: #c26b6b;
-  border-color: #c26b6b;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 
 .btn-success {
@@ -2009,27 +2009,27 @@ progress {
 }
 
 .btn-outline-secondary {
-  color: #c26b6b;
-  border-color: #c26b6b;
+  color: #333;
+  border-color: #333;
 }
 .btn-outline-secondary:hover {
-  color: #000;
-  background-color: #c26b6b;
-  border-color: #c26b6b;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(194, 107, 107, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.5);
 }
 .btn-check:checked + .btn-outline-secondary, .btn-check:active + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
-  color: #000;
-  background-color: #c26b6b;
-  border-color: #c26b6b;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 .btn-check:checked + .btn-outline-secondary:focus, .btn-check:active + .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(194, 107, 107, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.5);
 }
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-  color: #c26b6b;
+  color: #333;
   background-color: transparent;
 }
 
@@ -3356,10 +3356,10 @@ progress {
 }
 
 .link-secondary {
-  color: #c26b6b;
+  color: #333;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #ce8989;
+  color: #292929;
 }
 
 .link-success {
@@ -3799,7 +3799,7 @@ progress {
 }
 
 .border-secondary {
-  border-color: #c26b6b !important;
+  border-color: #333 !important;
 }
 
 .border-success {
@@ -7443,7 +7443,7 @@ footer .navbar-brand {
 }
 
 .nav-item {
-  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-align: right;
   padding-left: 2rem;
 }
@@ -7480,7 +7480,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .display-6 {
-  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -7495,6 +7495,7 @@ a:hover {
 
 .site-footer {
   font-size: 1.02rem;
+  background-color: #f7f7f9;
   padding-top: 2rem;
 }
 .site-footer li {
@@ -7573,7 +7574,7 @@ hr {
   */
 }
 .intro .section-lead a.bold {
-  background: linear-gradient(to top, #c26b6b 0% 20%, transparent 20% 100%);
+  background: linear-gradient(to top, #333 0% 20%, transparent 20% 100%);
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -7639,7 +7640,7 @@ hr {
   color: #333;
 }
 .text-body li::marker {
-  color: #c26b6b;
+  color: #333;
   font-size: 1.2rem;
 }
 
@@ -7649,8 +7650,13 @@ hr {
   }
 }
 section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
+}
+section h2, section .h2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 section.product h3 img, section.product .h3 img {
@@ -7777,6 +7783,8 @@ section.packages .btn {
 section.projects img {
   width: 100%;
   border-radius: 20px;
+  height: 250px;
+  object-fit: cover;
 }
 section.projects h4, section.projects .h4 {
   font-weight: bold;
@@ -7791,7 +7799,7 @@ section.projects > a {
 }
 
 .jobs {
-  background-color: #202728;
+  background-color: white;
   min-height: 22rem;
 }
 .jobs h2, .jobs .h2 {
@@ -7800,6 +7808,30 @@ section.projects > a {
 .jobs hr {
   background: linear-gradient(to right, transparent, #333, transparent);
   opacity: 0.75;
+}
+.jobs table {
+  border: 0;
+  width: 100%;
+}
+.jobs table td {
+  padding: 1rem;
+}
+.jobs table td.title {
+  font-weight: bold;
+}
+.jobs table tr {
+  border-bottom: 1px grey dotted;
+}
+.jobs td img {
+  height: 3.15rem;
+  padding-right: 1rem;
+}
+.jobs thead {
+  font-weight: bold;
+}
+.jobs tbody {
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
 }
 
 article h2, article .h2 {
@@ -7834,20 +7866,6 @@ article h2, article .h2 {
   border-radius: 100%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;
   margin: 1rem;
-}
-
-table {
-  border: 1px solid #333;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-table td, table th {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-left: 1px solid #333;
-}
-table th {
-  padding-bottom: 1rem;
 }
 
 span.o3m41l:before {

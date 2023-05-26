@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Full Stack Engineer
+location: Hybrid (Vienna / Anywhere)
 ---
 
 We are seeking a highly skilled full stack engineer with expertise in big data computing infrastructures, graph processing, and front-end development. The ideal candidate will have a passion for open source technology and a strong desire to innovate and solve complex problems.
