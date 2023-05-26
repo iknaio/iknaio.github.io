@@ -16,6 +16,7 @@ $bg-grey: #f7f7f9ff;
 $info: $tertiary;
 
 $body-color: #333;
+$body-light-color: #555;
 
 $light: $body-color;
 
@@ -369,8 +370,10 @@ section.product {
     }
 }
 
-section.packages {
+section.packages, section.partners {
     background-color: $bg-grey;
+}
+section.packages {
 
     @include media-breakpoint-down(md) {
         .container-sm {
@@ -484,9 +487,10 @@ section.packages {
         box-shadow: inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075);
         //transition: transform 0.5s;
     }
-    .btn:hover {
-        //transform: scale(1.1);
-    }
+}
+
+.partner {
+    padding: $spacer * 3;
 }
 
 .partner img {
@@ -496,6 +500,26 @@ section.packages {
     }
     &.waw {
         width: 40%;
+    }
+}
+
+section.projects {
+    img {
+        width: 100%;
+        border-radius: 20px;
+    } 
+     
+    h4 {
+        font-weight: bold;
+        padding-top: $spacer * 1;
+        padding-bottom: $spacer * 1;
+    }
+    .project-date {
+        color: $body-light-color;
+    }
+    
+    &> a {
+        text-decoration: none;
     }
 }
 

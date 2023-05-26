@@ -7663,9 +7663,10 @@ section.product .btn {
   width: 80%;
 }
 
-section.packages {
+section.packages, section.partners {
   background-color: #f7f7f9;
 }
+
 @media (max-width: 767.98px) {
   section.packages .container-sm {
     padding-left: 0;
@@ -7758,6 +7759,11 @@ section.packages .packages-banner:hover {
 section.packages .btn {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
+.partner {
+  padding: 3rem;
+}
+
 .partner img {
   width: 100%;
 }
@@ -7766,6 +7772,22 @@ section.packages .btn {
 }
 .partner img.waw {
   width: 40%;
+}
+
+section.projects img {
+  width: 100%;
+  border-radius: 20px;
+}
+section.projects h4, section.projects .h4 {
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+section.projects .project-date {
+  color: #555;
+}
+section.projects > a {
+  text-decoration: none;
 }
 
 .jobs {

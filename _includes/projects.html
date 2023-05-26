@@ -1,0 +1,16 @@
+<section class="container-sm projects">
+    <h2>Projects</h2>
+    <a href="{{site.posts.first.url}}">
+        <div class="row align-items-center">
+            <div class="col-md-6 pr-1">
+                <img src="{{site.posts.first.image}}">
+            </div>
+            <div class="col-md-6">
+                <div class="project-date">{{site.posts.first.date | date: "%B %e, %Y"}}</div>
+                <h4>{{site.posts.first.title}}</h4>
+                <p>{{site.posts.first.excerpt}}</p>
+            </div>
+        </div>
+    </a>
+</section>
+
