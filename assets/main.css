@@ -7434,7 +7434,9 @@ main.page-content {
   }
 }
 .navbar-brand img {
+  max-width: 320px;
   width: 100%;
+  transition: max-width 100ms;
 }
 
 footer .navbar-brand {
@@ -7451,11 +7453,18 @@ footer .navbar-brand {
   padding-bottom: 0;
 }
 
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
 .navbar .container-md {
   align-items: flex-end;
 }
 .navbar .navbar-collapse {
   justify-content: flex-end;
+}
+.navbar.navbar-slim img {
+  max-width: 150px;
 }
 
 .navbar-nav {
@@ -7534,10 +7543,6 @@ mark, .mark {
 hr {
   background: linear-gradient(to right, transparent, #333, transparent);
   opacity: 0.75;
-}
-
-header {
-  border-bottom: 1px solid #ddd;
 }
 
 .intro {

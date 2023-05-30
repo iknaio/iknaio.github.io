@@ -1,5 +1,5 @@
 <header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container-fluid">
@@ -25,7 +25,7 @@
             <a class="nav-link text-right" href="/#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-right" href="/projects">Projects</a>
+            <a class="nav-link text-right" href="/#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-right" href="/#jobs">Careers</a>
@@ -38,4 +38,29 @@
     </div>
   </nav>
 </header>
+<div style="visibility: hidden" class="site-header" role="banner">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+          <img src="/assets/graphics/logo.svg" title="{{ site.title | escape }}"/>
+      </a>
+    </div>
+  </nav>
+</div>
+<script type="text/javascript">
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    const clsName = ' navbar-slim'
+    document.querySelectorAll("nav.navbar").forEach(elem => {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            if (elem.className.indexOf(clsName) !== -1) return
+            elem.className += clsName
+        } else {
+            elem.className = elem.className.replace(clsName, '')
+        }
+    })
+}
+</script>
 

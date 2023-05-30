@@ -40,6 +40,9 @@ header_pages:
   - documentation.md
   - projects.html
 
+favicon:
+  source: assets/graphics/favicon.svg
+
 responsive_image:
   template: _includes/responsive-image.html
   sizes:

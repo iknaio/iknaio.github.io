@@ -103,13 +103,16 @@ main.page-content {
 
 $logo-width: 320px;
 
+
 .navbar-brand {
     width: calc(100% - 3 * $spacer - 1.5em); // latter is hard-coded bootstrap toggler icon width 
     @include media-breakpoint-up(sm) {
         max-width: $logo-width;
     }
     img {
+        max-width: $logo-width;
         width: 100%;
+        transition: max-width 100ms;
     }
 }
 
@@ -129,11 +132,18 @@ footer .navbar-brand {
 }
 
 .navbar {
+    background-color: $bg-color; 
+    border-bottom: 1px solid #ddd;
     .container-md {
         align-items: flex-end;
     }
     .navbar-collapse {
         justify-content: flex-end;
+    }
+    &.navbar-slim {
+        img {
+            max-width: 150px;
+        }
     }
 }
 
@@ -225,9 +235,6 @@ hr {
     opacity: 0.75;
 }
 
-header {
-    border-bottom: 1px solid #ddd;
-}
 
 
 .intro {
