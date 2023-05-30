@@ -7,7 +7,7 @@ $container-max-widths: (
 );
 
 $black: #000;
-$primary: #6bc2c2;
+$primary: #6bcbba;
 $tertiary: #c2c26b;
 $dark: #000;
 $bg-color: white;
@@ -20,8 +20,9 @@ $secondary: $body-color;
 
 $light: $body-color;
 
-$headings-font-family:        -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+//$headings-font-family:        -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $text-font-family: Roboto, sans-serif;
+$headings-font-family:        $text-font-family;
 
 $headings-color: $light;
 $font-size-base: 1.2rem;
@@ -257,7 +258,7 @@ hr {
         }
     }
     .section-lead {
-        background-image: url("/assets/graphics/bg_head.svg");
+        background-image: url("/assets/img/bg_head.svg");
         background-position: bottom;
         background-repeat: repeat-x;
         background-size: cover;
@@ -355,6 +356,13 @@ $rotation: 8deg;
 
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: inherit;
+    &:hover {
+        color: $primary
+    }
+}
+
 @include media-breakpoint-up(lg) {
     .text-body {
         padding: 0 84px; // aligns with company logos name
@@ -369,6 +377,7 @@ section {
         padding-bottom: $spacer * 4;
         margin-top: 0;
         margin-bottom: 0;
+        font-weight: bold;
     }
 
 }
@@ -548,9 +557,9 @@ a.project {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
+    height: min(25vw, 250px);
     background-color: $bg-grey;
-    background-image: url("/assets/graphics/bg_head.svg");
+    background-image: url("/assets/img/bg_head.svg");
     background-position: bottom;
     background-repeat: repeat-x;
 }
@@ -637,6 +646,18 @@ article {
     border-radius: 100%;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5) inset;
     margin: $spacer;
+}
+
+iframe.order {
+    width: 100%; 
+    height: 100vh;
+    @include media-breakpoint-down(md) {
+        height: 130vh;
+    }
+    @include media-breakpoint-down(sm) {
+        height: 160vh;
+    }
+
 }
 
 @import "email-obfuscator";

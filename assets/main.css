@@ -22,7 +22,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #6bc2c2;
+  --bs-primary: #6bcbba;
   --bs-secondary: #333;
   --bs-success: #198754;
   --bs-info: #c2c26b;
@@ -30,7 +30,7 @@
   --bs-danger: #dc3545;
   --bs-light: #333;
   --bs-dark: #000;
-  --bs-primary-rgb: 107, 194, 194;
+  --bs-primary-rgb: 107, 203, 186;
   --bs-secondary-rgb: 51, 51, 51;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 194, 194, 107;
@@ -93,7 +93,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #333;
@@ -229,11 +229,11 @@ sup {
 }
 
 a {
-  color: #6bc2c2;
+  color: #6bcbba;
   text-decoration: underline;
 }
 a:hover {
-  color: #569b9b;
+  color: #56a295;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -1710,7 +1710,7 @@ progress {
 }
 .btn {
   display: inline-block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #333;
@@ -1736,7 +1736,7 @@ progress {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(107, 194, 194, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(107, 203, 186, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -1745,32 +1745,32 @@ progress {
 
 .btn-primary {
   color: #000;
-  background-color: #6bc2c2;
-  border-color: #6bc2c2;
+  background-color: #6bcbba;
+  border-color: #6bcbba;
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #81cbcb;
-  border-color: #7ac8c8;
+  background-color: #81d3c4;
+  border-color: #7ad0c1;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
-  background-color: #81cbcb;
-  border-color: #7ac8c8;
-  box-shadow: 0 0 0 0.25rem rgba(91, 165, 165, 0.5);
+  background-color: #81d3c4;
+  border-color: #7ad0c1;
+  box-shadow: 0 0 0 0.25rem rgba(91, 173, 158, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #89cece;
-  border-color: #7ac8c8;
+  background-color: #89d5c8;
+  border-color: #7ad0c1;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(91, 165, 165, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(91, 173, 158, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #000;
-  background-color: #6bc2c2;
-  border-color: #6bc2c2;
+  background-color: #6bcbba;
+  border-color: #6bcbba;
 }
 
 .btn-secondary {
@@ -1984,27 +1984,27 @@ progress {
 }
 
 .btn-outline-primary {
-  color: #6bc2c2;
-  border-color: #6bc2c2;
+  color: #6bcbba;
+  border-color: #6bcbba;
 }
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #6bc2c2;
-  border-color: #6bc2c2;
+  background-color: #6bcbba;
+  border-color: #6bcbba;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(107, 194, 194, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(107, 203, 186, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #000;
-  background-color: #6bc2c2;
-  border-color: #6bc2c2;
+  background-color: #6bcbba;
+  border-color: #6bcbba;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(107, 194, 194, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(107, 203, 186, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #6bc2c2;
+  color: #6bcbba;
   background-color: transparent;
 }
 
@@ -2185,11 +2185,11 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #6bc2c2;
+  color: #6bcbba;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #569b9b;
+  color: #56a295;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -2494,7 +2494,7 @@ progress {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #6bc2c2;
+  background-color: #6bcbba;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -2535,7 +2535,7 @@ progress {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #6bc2c2;
+  background-color: #6bcbba;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -2561,7 +2561,7 @@ progress {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #6bc2c2;
+  color: #6bcbba;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -2571,7 +2571,7 @@ progress {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #569b9b;
+  color: #56a295;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -2618,7 +2618,7 @@ progress {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #6bc2c2;
+  background-color: #6bcbba;
 }
 
 .nav-fill > .nav-link,
@@ -3349,10 +3349,10 @@ progress {
 }
 
 .link-primary {
-  color: #6bc2c2;
+  color: #6bcbba;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #89cece;
+  color: #89d5c8;
 }
 
 .link-secondary {
@@ -3795,7 +3795,7 @@ progress {
 }
 
 .border-primary {
-  border-color: #6bc2c2 !important;
+  border-color: #6bcbba !important;
 }
 
 .border-secondary {
@@ -7445,7 +7445,7 @@ footer .navbar-brand {
 }
 
 .nav-item {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   text-align: right;
   padding-left: 2rem;
 }
@@ -7489,7 +7489,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .display-6 {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 a {
@@ -7566,7 +7566,7 @@ hr {
   display: inline-block;
 }
 .intro .section-lead {
-  background-image: url("/assets/graphics/bg_head.svg");
+  background-image: url("/assets/img/bg_head.svg");
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: cover;
@@ -7588,7 +7588,7 @@ hr {
   font-weight: bold;
 }
 .intro .section-lead a.bold:hover {
-  background: linear-gradient(to top, #6bc2c2 0% 20%, transparent 20% 100%);
+  background: linear-gradient(to top, #6bcbba 0% 20%, transparent 20% 100%);
   text-decoration: none;
 }
 
@@ -7652,6 +7652,13 @@ hr {
   font-size: 1.2rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: inherit;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #6bcbba;
+}
+
 @media (min-width: 992px) {
   .text-body {
     padding: 0 84px;
@@ -7665,6 +7672,7 @@ section h2, section .h2 {
   padding-bottom: 4rem;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .product h3 img, .product .h3 img {
@@ -7814,9 +7822,9 @@ a.project .project-date {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
+  height: min(25vw, 250px);
   background-color: #f7f7f9;
-  background-image: url("/assets/graphics/bg_head.svg");
+  background-image: url("/assets/img/bg_head.svg");
   background-position: bottom;
   background-repeat: repeat-x;
 }
@@ -7893,6 +7901,21 @@ article h2, article .h2 {
   border-radius: 100%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;
   margin: 1rem;
+}
+
+iframe.order {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 767.98px) {
+  iframe.order {
+    height: 130vh;
+  }
+}
+@media (max-width: 575.98px) {
+  iframe.order {
+    height: 160vh;
+  }
 }
 
 span.o3m41l:before {

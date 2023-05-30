@@ -1,10 +1,10 @@
 <header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="container-fluid">
       <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-          <img src="/assets/graphics/logo.svg" title="{{ site.title | escape }}"/>
+          <img src="/assets/img/logo.svg" title="{{ site.title | escape }}"/>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
             <a class="nav-link text-right" href="/#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-right" href="/#projects">Projects</a>
+            <a class="nav-link text-right" href="/news.html">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-right" href="/#jobs">Careers</a>
+            <a class="nav-link text-right" href="/about.html">About us</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-primary btn-md pt-0" role="button" aria-disabled="true" href="/#packages">Order Now</a>
@@ -39,10 +39,10 @@
   </nav>
 </header>
 <div style="visibility: hidden" class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-          <img src="/assets/graphics/logo.svg" title="{{ site.title | escape }}"/>
+          <img src="/assets/img/logo.svg" title="{{ site.title | escape }}"/>
       </a>
     </div>
   </nav>
@@ -51,16 +51,20 @@
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
 
+let lastScrollTop = 0
 function scrollFunction() {
     const clsName = ' navbar-slim'
+    const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
     document.querySelectorAll("nav.navbar").forEach(elem => {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        if (Math.abs(lastScrollTop - scrollTop) < 10) return
+        if (scrollTop > 80) {
             if (elem.className.indexOf(clsName) !== -1) return
             elem.className += clsName
         } else {
             elem.className = elem.className.replace(clsName, '')
         }
     })
+    lastScrollTop = scrollTop
 }
 </script>
 

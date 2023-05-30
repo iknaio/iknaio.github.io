@@ -9,7 +9,7 @@
     <tbody>
         {% for job in site.jobs %}
         <tr>
-            <td><img src="/assets/graphics/icon_person.svg"/><a href="{{job.url}}">{{job.title}}</a></td>
+            <td><img src="/assets/img/icon_person.svg"/><a href="{{job.url}}">{{job.title}}</a></td>
             <td>{{job.location}}</td>
             <td><a href="mailto:{{site.email}}?subject={{job.title}}" class="btn btn-secondary">Apply</a></td>
         </tr>

@@ -41,7 +41,7 @@ header_pages:
   - projects.html
 
 favicon:
-  source: assets/graphics/favicon.svg
+  source: assets/img/favicon.svg
 
 responsive_image:
   template: _includes/responsive-image.html
