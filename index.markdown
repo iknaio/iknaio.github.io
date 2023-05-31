@@ -7,5 +7,6 @@ layout: home
 {% include intro.html %}
 {% include product.html %}
 {% include packages.html %}
+{% include projects.html %}
 {% include partners.html %}
 {% include jobs.html %}

@@ -53,8 +53,6 @@ We take our responsibility to combat the abuse of cryptoassets seriously and wil
 
 {% include bio.html name='Matthias Rella' image='Matthias_Rella.jpg' bio='As an expert in Web technologies, Matthias Rella is a primary contributor and responsible for GraphSense\'s REST API development and its Dashboard and client tools. He holds master\'s degrees in Computer Science and Linguistics and has worked in Web-based information management for more than ten years.' %}
 
-{% include bio.html name='Patrick Schreiner' image='Rainer_Stuetz.jpg' bio='Patrick Schreiner is just great. TODO: add short bio.' %}
-
 {% include bio.html name='Rainer Stütz' image='Rainer_Stuetz.jpg' bio='Rainer Stütz has 15+ years of extensive experience in data crunching. He is also a primary contributor to GraphSense and is responsible for backend development and large-scale analytics. His background is in applied mathematics, and he has a keen interest in computational statistics and big data.' %}
 
 {% include bio.html name='Karl Zettl' image='Karl_Zettl.jpg' bio='Karl Zettl is co-founder and CEO of Iknaio Cryptoasset Analytics GmbH and is responsible for sales and marketing and business development. He has been working in different management positions in project management, business development, and sales for more than 15 years, focusing on the payment industry for CEE and DACH region.' %}
