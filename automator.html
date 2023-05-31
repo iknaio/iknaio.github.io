@@ -90,15 +90,14 @@ let lastScrollTop = 0
 function scrollFunction() {
     const clsName = ' navbar-slim'
     const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
-    document.querySelectorAll("nav.navbar").forEach(elem => {
-        if (Math.abs(lastScrollTop - scrollTop) < 10) return
-        if (scrollTop > 80) {
-            if (elem.className.indexOf(clsName) !== -1) return
-            elem.className += clsName
-        } else {
-            elem.className = elem.className.replace(clsName, '')
-        }
-    })
+    const elem = document.querySelector("nav.navbar")
+    if (Math.abs(lastScrollTop - scrollTop) < 10) return
+    if (scrollTop > 80) {
+        if (elem.className.indexOf(clsName) !== -1) return
+        elem.className += clsName
+    } else {
+        elem.className = elem.className.replace(clsName, '')
+    }
     lastScrollTop = scrollTop
 }
 </script>
