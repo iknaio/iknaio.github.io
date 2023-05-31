@@ -46,6 +46,7 @@ favicon:
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
+    - width: 1024
     - width: 800
     - width: 480
     - width: 320
