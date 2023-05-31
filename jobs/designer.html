@@ -3,12 +3,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-  <link rel="manifest" href="/assets/site.webmanifest"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link href='/favicon.ico' rel='shortcut icon' sizes='36x36 24x24 16x16' type='image/x-icon'/>
+<link href='/favicon.png' rel='icon' sizes='196x196' type='image/png'/>
+<link color='transparent' href='/safari-pinned-tab.svg' rel='mask-icon'/>
+<meta content='/mstile-icon-128x128.png' name='msapplication-TileImage'/>
+<meta content='transparent' name='msapplication-TileColor'/>
+<link href='/manifest.webmanifest' rel='manifest'/>
+<meta content='/browserconfig.xml' name='msapplication-config'/><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Digital Product Designer (part-time) | Iknaio Cryptoasset Analytics</title>
-<meta name="generator" content="Jekyll v4.2.1" />
+<meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Digital Product Designer (part-time)" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="We are seeking a talented and experienced digital product designer to join our team. As a digital product designer, you will be responsible for creating and designing innovative and engaging digital products, interfaces, and experiences for our clients." />
@@ -17,11 +20,11 @@
 <meta property="og:url" content="/jobs/designer.html" />
 <meta property="og:site_name" content="Iknaio Cryptoasset Analytics" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-05-26T17:32:13-05:00" />
+<meta property="article:published_time" content="2023-05-31T02:31:34-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Digital Product Designer (part-time)" />
 <script type="application/ld+json">
-{"url":"/jobs/designer.html","datePublished":"2023-05-26T17:32:13-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/jobs/designer.html"},"description":"We are seeking a talented and experienced digital product designer to join our team. As a digital product designer, you will be responsible for creating and designing innovative and engaging digital products, interfaces, and experiences for our clients.","headline":"Digital Product Designer (part-time)","dateModified":"2023-05-26T17:32:13-05:00","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-31T02:31:34-05:00","datePublished":"2023-05-31T02:31:34-05:00","description":"We are seeking a talented and experienced digital product designer to join our team. As a digital product designer, you will be responsible for creating and designing innovative and engaging digital products, interfaces, and experiences for our clients.","headline":"Digital Product Designer (part-time)","mainEntityOfPage":{"@type":"WebPage","@id":"/jobs/designer.html"},"url":"/jobs/designer.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/fonts/montserrat/stylesheet.css"><!-- Matomo -->
@@ -44,26 +47,24 @@
 <body>
 
     <div class="frame"><header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-dark"><div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top"><div class="container-fluid">
       <a class="navbar-brand" rel="author" href="/">
-          <img src="/assets/graphics/logo.svg" title="Iknaio Cryptoasset Analytics"/>
+          <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-        <!--<li class="nav-item">
-              <a class="nav-link text-right" href="/projects.html">Projects</a>
-            </li>-->
+        <!---->
           <li class="nav-item">
             <a class="nav-link text-right" href="/#services">Services</a>
           </li>
+          <!--li class="nav-item">
+            <a class="nav-link text-right" href="/news.html">News</a>
+          </li-->
           <li class="nav-item">
-            <a class="nav-link text-right" href="/projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-right" href="/#jobs">Careers</a>
+            <a class="nav-link text-right" href="/about.html">About us</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-primary btn-md pt-0" role="button" aria-disabled="true" href="/#packages">Order Now</a>
@@ -73,6 +74,35 @@
     </div>
   </nav>
 </header>
+<div style="visibility: hidden" class="site-header" role="banner">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" rel="author" href="/">
+          <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
+      </a>
+    </div>
+  </nav>
+</div>
+<script type="text/javascript">
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+let lastScrollTop = 0
+function scrollFunction() {
+    const clsName = ' navbar-slim'
+    const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
+    document.querySelectorAll("nav.navbar").forEach(elem => {
+        if (Math.abs(lastScrollTop - scrollTop) < 10) return
+        if (scrollTop > 80) {
+            if (elem.className.indexOf(clsName) !== -1) return
+            elem.className += clsName
+        } else {
+            elem.className = elem.className.replace(clsName, '')
+        }
+    })
+    lastScrollTop = scrollTop
+}
+</script>
 
 <main class="page-content" aria-label="Content">
             <div class="page-head">
@@ -115,12 +145,12 @@
 
     <div class="row">
       <div class="footer-col col-12">
-        <div class="navbar-brand"><img src="/assets/graphics/logo_tx.svg"/></div>
+        <div class="navbar-brand"><img src="/assets/img/logo_tx.svg"/></div>
       </div>
     </div>
     <div class="row">
       <div class="col-10 col-sm-6">
-        <ul class="list-unstyled contact-list">
+        <ul class="px-3 list-unstyled contact-list">
             <li>© Iknaio Cryptoasset Analytics GmbH 2023</li>
             <li>Vienna/Europe</li>
             <li><a class="u-email" href="mailto:contact@ikna.io">contact@ikna.io</a></li>
@@ -131,11 +161,13 @@
 </div>
     </div>
     <div class="row">
-      <ul>
-      <li><a href="/imprint">Imprint</a></li>
-      <li><a href="/privacy">Privacy</a></li>
-      <!--li><a href="/terms">Terms of service</a></li-->
-      </ul>
+        <div class="col">
+            <ul class="px-3">
+                <li><a href="/imprint.html">Imprint</a></li>
+                <li><a href="/privacy.html">Privacy</a></li>
+                <!--li><a href="/terms">Terms of service</a></li-->
+            </ul>
+        </div>
     </div>
 
   </div>

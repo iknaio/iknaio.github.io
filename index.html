@@ -3,12 +3,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-  <link rel="manifest" href="/assets/site.webmanifest"><!-- Begin Jekyll SEO tag v2.7.1 -->
+  <link href='/favicon.ico' rel='shortcut icon' sizes='36x36 24x24 16x16' type='image/x-icon'/>
+<link href='/favicon.png' rel='icon' sizes='196x196' type='image/png'/>
+<link color='transparent' href='/safari-pinned-tab.svg' rel='mask-icon'/>
+<meta content='/mstile-icon-128x128.png' name='msapplication-TileImage'/>
+<meta content='transparent' name='msapplication-TileColor'/>
+<link href='/manifest.webmanifest' rel='manifest'/>
+<meta content='/browserconfig.xml' name='msapplication-config'/><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Iknaio Cryptoasset Analytics | Service provisioning for GraphSense - the leading open source cryptoasset analytics platform.</title>
-<meta name="generator" content="Jekyll v4.2.1" />
+<meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Iknaio Cryptoasset Analytics" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Service provisioning for GraphSense - the leading open source cryptoasset analytics platform." />
@@ -16,10 +19,11 @@
 <link rel="canonical" href="/" />
 <meta property="og:url" content="/" />
 <meta property="og:site_name" content="Iknaio Cryptoasset Analytics" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Iknaio Cryptoasset Analytics" />
 <script type="application/ld+json">
-{"url":"/","@type":"WebSite","description":"Service provisioning for GraphSense - the leading open source cryptoasset analytics platform.","headline":"Iknaio Cryptoasset Analytics","name":"Iknaio Cryptoasset Analytics","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Service provisioning for GraphSense - the leading open source cryptoasset analytics platform.","headline":"Iknaio Cryptoasset Analytics","name":"Iknaio Cryptoasset Analytics","url":"/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/fonts/montserrat/stylesheet.css"><!-- Matomo -->
@@ -42,26 +46,24 @@
 <body>
 
     <div class="frame"><header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-dark"><div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top"><div class="container-fluid">
       <a class="navbar-brand" rel="author" href="/">
-          <img src="/assets/graphics/logo.svg" title="Iknaio Cryptoasset Analytics"/>
+          <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-        <!--<li class="nav-item">
-              <a class="nav-link text-right" href="/projects.html">Projects</a>
-            </li>-->
+        <!---->
           <li class="nav-item">
             <a class="nav-link text-right" href="/#services">Services</a>
           </li>
+          <!--li class="nav-item">
+            <a class="nav-link text-right" href="/news.html">News</a>
+          </li-->
           <li class="nav-item">
-            <a class="nav-link text-right" href="/projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-right" href="/#jobs">Careers</a>
+            <a class="nav-link text-right" href="/about.html">About us</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-primary btn-md pt-0" role="button" aria-disabled="true" href="/#packages">Order Now</a>
@@ -71,19 +73,48 @@
     </div>
   </nav>
 </header>
+<div style="visibility: hidden" class="site-header" role="banner">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" rel="author" href="/">
+          <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
+      </a>
+    </div>
+  </nav>
+</div>
+<script type="text/javascript">
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+let lastScrollTop = 0
+function scrollFunction() {
+    const clsName = ' navbar-slim'
+    const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
+    document.querySelectorAll("nav.navbar").forEach(elem => {
+        if (Math.abs(lastScrollTop - scrollTop) < 10) return
+        if (scrollTop > 80) {
+            if (elem.className.indexOf(clsName) !== -1) return
+            elem.className += clsName
+        } else {
+            elem.className = elem.className.replace(clsName, '')
+        }
+    })
+    lastScrollTop = scrollTop
+}
+</script>
 
 <main class="page-content" aria-label="Content">
             <div class="home"><section class="container-fluid intro">
     <div class="row logo">
         <div class="col"></div>
         <div class="display-4 col-lg-4 col-md-6 col-xs-6 text-center">
-            <img src="/assets/graphics/logo_tx.svg" />
+            <img src="/assets/img/logo_tx.svg" />
         </div>
         <div class="col"></div>
     </div>
     <div class="row section-lead">
         <div class="col"></div>
-        <div class="display-6 col-lg-8 col-md-10 col-xs-12 text-center">
+        <div class="fs-4 col-lg-8 col-md-10 col-xs-12 text-center">
             <div class="row">
                 <div class="col">
                     We provide services around GraphSense<br />
@@ -92,7 +123,7 @@
             </div>
             <div class="row cta">
                 <div class="col">
-                    <a href="https://app.ikna.io" class="btn btn-primary">Try for free</a>
+                    <a href="/order/free.html" class="btn btn-primary">Try for free</a>
                 </div>
             </div>
         </div>
@@ -104,24 +135,24 @@
     <h2>Our services</h2>
     <div class="row align-items-center">
         <div class="col-md-4 pr-1 pb-4">
-            <h3><img src="/assets/graphics/icon_pathfinder.svg" />Pathfinder</h3>
+            <h3><img src="/assets/img/icon_pathfinder.svg" />Pathfinder</h3>
             <p>Empower everyone with the ability to easily inspect and trace cryptoasset payment flows.</p>
             <a href="/pathfinder.html" class="btn btn-secondary">Learn more</a>
         </div>
         <div class="col-md-8 pl-2">
-            <img src="/assets/graphics/pathfinder.svg" />
+            <img src="/assets/img/pathfinder.svg" />
         </div>
     </div>
 </section>
 <section class="container-sm mt-4 product white">
     <div class="row align-items-center">
         <div class="col-md-4 pr-1">
-            <h3 class="d-flex align-items-end"><img src="/assets/graphics/icon_automator.svg" /><span>Automator</span></h3>
+            <h3 class="d-flex align-items-end"><img src="/assets/img/icon_automator.svg" /><span>Automator</span></h3>
             <p>Enhance efficiency by automating your cryptoasset forensics, compliance, or reporting workflows programmatically.</p>
             <a href="/automator.html" class="btn btn-secondary">Learn more</a>
         </div>
         <div class="col-md-8 pl-2">
-            <img src="/assets/graphics/automator.svg" />
+            <img src="/assets/img/automator.svg" />
         </div>
     </div>
 </section>
@@ -137,14 +168,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Free</h3>
-        <img src="/assets/graphics/pricing_free.svg" />
+        <img src="/assets/img/pricing_free.svg" />
         <h4>Pathfinder</h4>
         <hr />
         <ul>
             <li class="on">1.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€0</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
 
     </div>
 </div>
@@ -155,14 +186,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Advanced</h3>
-        <img src="/assets/graphics/pricing_advanced.svg" />
+        <img src="/assets/img/pricing_advanced.svg" />
         <h4>Pathfinder + Automator</h4>
         <hr />
         <ul>
             <li class="on">10.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€499</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
 
     </div>
 </div>
@@ -173,14 +204,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Professional</h3>
-        <img src="/assets/graphics/pricing_professional.svg" />
+        <img src="/assets/img/pricing_professional.svg" />
         <h4>Pathfinder + Automator</h4>
         <hr />
         <ul>
             <li class="on">100.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€799</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
 
     </div>
 </div>
@@ -202,14 +233,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Free</h3>
-        <img src="/assets/graphics/pricing_free.svg" />
+        <img src="/assets/img/pricing_free.svg" />
         <h4>Pathfinder</h4>
         <hr />
         <ul>
             <li class="on">1.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€0</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
 
     </div>
 </div>
@@ -218,14 +249,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Advanced</h3>
-        <img src="/assets/graphics/pricing_advanced.svg" />
+        <img src="/assets/img/pricing_advanced.svg" />
         <h4>Pathfinder + Automator</h4>
         <hr />
         <ul>
             <li class="on">10.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€499</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
 
     </div>
 </div>
@@ -234,14 +265,14 @@
                 <div class="package-frame col-xs-12 col-sm-8 col-lg-4">
     <div class="package">
         <h3>Professional</h3>
-        <img src="/assets/graphics/pricing_professional.svg" />
+        <img src="/assets/img/pricing_professional.svg" />
         <h4>Pathfinder + Automator</h4>
         <hr />
         <ul>
             <li class="on">100.000 requests per month&nbsp;</li>
         </ul>
         <div class="price"><span class="number">€799</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional">Order Now</a>
+        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
 
     </div>
 </div>
@@ -252,31 +283,6 @@
         <!--div class="packages-banner d-flex justify-content-center mx-2 px-1 py-3 text-nowrap">
             Available now!
         </div-->
-    </div>
-</section>
-
-<section class="container-sm projects white">
-    <h2>Projects</h2>
-    <a class="project" href="/2022/06/22/ZCB.html">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <div class="p-4">
-                <img src="/assets/img/company.jpg" />
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="project-date">June 22, 2022</div>
-            <h4>Blockchain Analytics Pilot in Bavaria</h4>
-            <p>In this project we develop new case deconfliction and analytics techniques to deal with the increasing number of cybertrading fraud and child sexual abuse cases</p>
-        </div>
-    </div>
-</a>
-
-
-    <div class="row justify-content-center pt-5">
-        <div class="col-6 d-flex justify-content-center">
-            <a href="/posts" class="btn btn-secondary btn-lg">More about our projects</a>
-        </div>
     </div>
 </section>
 
@@ -296,6 +302,9 @@
                 </div-->
                 <div class="col-xs-12 col-md-4 partner">
                     <img src="assets/img/waw.png" />
+                </div>
+                <div class="col-xs-12 col-md-4 partner">
+                    <img src="assets/img/aws.png" />
                 </div>
             </div>
         </div>
@@ -317,13 +326,13 @@
     <tbody>
         
         <tr>
-            <td><img src="/assets/graphics/icon_person.svg" /><a href="/jobs/designer.html">Digital Product Designer (part-time)</a></td>
+            <td><img src="/assets/img/icon_person.svg" /><a href="/jobs/designer.html">Digital Product Designer (part-time)</a></td>
             <td>Hybrid (Vienna / Anywhere)</td>
             <td><a href="mailto:contact@ikna.io?subject=Digital Product Designer (part-time)" class="btn btn-secondary">Apply</a></td>
         </tr>
         
         <tr>
-            <td><img src="/assets/graphics/icon_person.svg" /><a href="/jobs/full_stack.html">Full Stack Engineer</a></td>
+            <td><img src="/assets/img/icon_person.svg" /><a href="/jobs/full_stack.html">Full Stack Engineer</a></td>
             <td>Hybrid (Vienna / Anywhere)</td>
             <td><a href="mailto:contact@ikna.io?subject=Full Stack Engineer" class="btn btn-secondary">Apply</a></td>
         </tr>
@@ -349,12 +358,12 @@
 
     <div class="row">
       <div class="footer-col col-12">
-        <div class="navbar-brand"><img src="/assets/graphics/logo_tx.svg"/></div>
+        <div class="navbar-brand"><img src="/assets/img/logo_tx.svg"/></div>
       </div>
     </div>
     <div class="row">
       <div class="col-10 col-sm-6">
-        <ul class="list-unstyled contact-list">
+        <ul class="px-3 list-unstyled contact-list">
             <li>© Iknaio Cryptoasset Analytics GmbH 2023</li>
             <li>Vienna/Europe</li>
             <li><a class="u-email" href="mailto:contact@ikna.io">contact@ikna.io</a></li>
@@ -365,11 +374,13 @@
 </div>
     </div>
     <div class="row">
-      <ul>
-      <li><a href="/imprint">Imprint</a></li>
-      <li><a href="/privacy">Privacy</a></li>
-      <!--li><a href="/terms">Terms of service</a></li-->
-      </ul>
+        <div class="col">
+            <ul class="px-3">
+                <li><a href="/imprint.html">Imprint</a></li>
+                <li><a href="/privacy.html">Privacy</a></li>
+                <!--li><a href="/terms">Terms of service</a></li-->
+            </ul>
+        </div>
     </div>
 
   </div>
