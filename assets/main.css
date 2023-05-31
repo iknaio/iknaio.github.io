@@ -7703,6 +7703,12 @@ section.grey {
     padding-right: 2.5rem;
   }
 }
+@media (max-width: 575.98px) {
+  section.packages .carousel-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 section.packages h2, section.packages .h2, section.packages h3, section.packages .h3 {
   color: #000;
 }

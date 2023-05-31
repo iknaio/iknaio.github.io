@@ -416,6 +416,12 @@ section.packages {
             padding-right: $spacer * 2.5;
         }
     }
+    @include media-breakpoint-down(sm) {
+        .carousel-item {
+            padding-left: $spacer;
+            padding-right: $spacer;
+        }
+    }
 
     h2, h3 {
         color: $dark;
