@@ -86,3 +86,6 @@ exclude:
 collections:
   jobs:
     output: true
+
+
+theme: just-the-docs

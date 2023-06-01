@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-responsive-image"
   gem 'jekyll-seo-tag'
   gem 'jekyll-favicon'
+  gem 'just-the-docs'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

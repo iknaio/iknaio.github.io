@@ -31,6 +31,9 @@
             <a class="nav-link text-right" href="/events.html">Events</a>
           </li-->
           <li class="nav-item">
+            <a class="nav-link text-right" href="/docs/">Docs</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-right" href="/about.html">About us</a>
           </li>
           <li class="nav-item">
@@ -51,10 +54,9 @@
   </nav>
 </div>
 <script type="text/javascript">
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
 
-let lastScrollTop = 0
+let lastScrollTop = 0;
 function scrollFunction() {
     return
     const clsName = ' navbar-slim'
@@ -62,12 +64,12 @@ function scrollFunction() {
     const elem = document.querySelector("nav.navbar")
     if (Math.abs(lastScrollTop - scrollTop) < 10) return
     if (scrollTop > 80) {
-        if (elem.className.indexOf(clsName) !== -1) return
-        elem.className += clsName
+        if (elem.className.indexOf(clsName) !== -1) return;
+        elem.className += clsName;
     } else {
-        elem.className = elem.className.replace(clsName, '')
+        elem.className = elem.className.replace(clsName, '');
     }
-    lastScrollTop = scrollTop
+    lastScrollTop = scrollTop;
 }
 </script>
 

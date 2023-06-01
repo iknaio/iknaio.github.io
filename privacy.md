@@ -1,6 +1,8 @@
 ---
 title: Data Protection Declaration
 layout: page
+nav_exclude: true
+search_exclude: true
 ---
   
 Last update: 17.06.2022
