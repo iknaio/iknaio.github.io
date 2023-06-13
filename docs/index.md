@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: About Graphsense hosted by Iknaio
+nav_order: 5
 ---
 
 Demand for cryptoasset analysis tools is increasing: businesses dealing with cryptoassets analyse transactions to fulfil compliance guidelines and regulations; law enforcement needs these techniques to track and trace illicit money flows; designers of distributed ledger technology analyse deployed systems to make informed system design decisions; finally, analysts in businesses and authorities must analyse transactional data to understand markets and capital market flows between significant players on the market.
