@@ -264,7 +264,7 @@ hr {
         background-size: cover;
         min-height: min(21vw, 400px);
         max-height: 400px;
-        padding-bottom: 9rem;
+        padding-bottom: 5rem;
         a.bold {
             background: linear-gradient(to top, $secondary 0% 20%, transparent 20% 100%);
             text-decoration: none;
@@ -444,10 +444,7 @@ section.packages {
     }
 
     hr {
-        background: linear-gradient(to right, transparent, $dark, transparent);
-        opacity: 0.75;
-        margin-top: $spacer * 2;
-        margin-bottom: $spacer * 2;
+        background: rgba(0, 0, 0, 0.125);
     }
     .package-frame {
         margin: 0 auto;
@@ -459,10 +456,10 @@ section.packages {
         background-color: $bg-color;
         border-radius: $card-border-radius;
         color: black;
-        padding: $spacer;
+        padding: $spacer * 1.2 $spacer;
 
         ul {
-            margin-left: $spacer * 2;
+            margin-left: 0;
         }
 
         li {
@@ -481,11 +478,14 @@ section.packages {
             display: block;
         }
 
+        .btn-lg {
+            font-size: $font-size-base;
+        }
         .price {
             text-align: center;
             .number {
                 font-weight: bold;
-                font-size: 250%;
+                font-size: $font-size-base * 2;
             }
             .period {
                 font-size: 125%;
@@ -526,7 +526,7 @@ section.packages {
 }
 
 .partner {
-    padding: $spacer * 3;
+    padding: $spacer;
 }
 
 .partner img {
@@ -600,7 +600,7 @@ a.project {
     }
 
     td img {
-        height: $h3-font-size * 1.5;
+        height: $font-size-base * 2.4;
         padding-right: $spacer;
     }
 
