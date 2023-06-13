@@ -46,7 +46,7 @@
 <body>
 
     <div class="frame"><header class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top"><div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-slim fixed-top"><div class="container-fluid">
       <a class="navbar-brand" rel="author" href="/">
           <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
       </a>
@@ -74,7 +74,7 @@
   </nav>
 </header>
 <div style="visibility: hidden" class="site-header" role="banner">
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-slim">
     <div class="container-fluid">
       <a class="navbar-brand" rel="author" href="/">
           <img src="/assets/img/logo.svg" title="Iknaio Cryptoasset Analytics"/>
@@ -88,6 +88,7 @@ window.onscroll = function() {scrollFunction()};
 
 let lastScrollTop = 0
 function scrollFunction() {
+    return
     const clsName = ' navbar-slim'
     const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
     const elem = document.querySelector("nav.navbar")
@@ -173,8 +174,8 @@ function scrollFunction() {
         <ul>
             <li class="on">1.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€0</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
+        <div class="price my-3"><span class="number">€0</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
 
     </div>
 </div>
@@ -191,8 +192,8 @@ function scrollFunction() {
         <ul>
             <li class="on">10.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€499</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
+        <div class="price my-3"><span class="number">€499</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
 
     </div>
 </div>
@@ -209,8 +210,8 @@ function scrollFunction() {
         <ul>
             <li class="on">100.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€799</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
+        <div class="price my-3"><span class="number">€799</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
 
     </div>
 </div>
@@ -238,8 +239,8 @@ function scrollFunction() {
         <ul>
             <li class="on">1.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€0</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
+        <div class="price my-3"><span class="number">€0</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/free.html">Order Now</a>
 
     </div>
 </div>
@@ -254,8 +255,8 @@ function scrollFunction() {
         <ul>
             <li class="on">10.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€499</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
+        <div class="price my-3"><span class="number">€499</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/advanced.html">Order Now</a>
 
     </div>
 </div>
@@ -270,8 +271,8 @@ function scrollFunction() {
         <ul>
             <li class="on">100.000 requests per month&nbsp;</li>
         </ul>
-        <div class="price"><span class="number">€799</span><span class="period">/month</span></div>
-        <a class="btn btn-primary btn-lg my-3" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
+        <div class="price my-3"><span class="number">€799</span><span class="period">/month</span></div>
+        <a class="btn btn-primary btn-lg" role="button" aria-disabled="true" href="/order/professional.html">Order Now</a>
 
     </div>
 </div>
@@ -315,20 +316,20 @@ function scrollFunction() {
         <div class="text-body">
             <h2>Partners</h2>
             <div class="row align-items-center justify-content-center">
-                <div class="col-xs-12 col-md-4 partner">
+                <div class="col-xs-12 col-md-3 partner">
                     <img src="assets/img/cflw.png" />
                 </div>
-                <div class="col-xs-12 col-md-4 partner">
+                <div class="col-xs-12 col-md-3 partner">
                     <img src="assets/img/csh.png" />
                 </div>
                 <!--div class="col-xs-12 col-md-3 partner">
                     <img class="bmf" src="assets/img/bmf.png"/>
                 </div-->
-                <div class="col-xs-12 col-md-4 partner">
-                    <img src="assets/img/waw.png" />
-                </div>
-                <div class="col-xs-12 col-md-4 partner">
+                <div class="col-xs-12 col-md-3 partner">
                     <img src="assets/img/aws.png" />
+                </div>
+                <div class="col-xs-12 col-md-3 partner">
+                    <img src="assets/img/waw.png" />
                 </div>
             </div>
         </div>
