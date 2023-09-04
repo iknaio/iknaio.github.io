@@ -668,4 +668,11 @@ iframe.order {
 
 @import "email-obfuscator";
 
-
+.image-left {
+    width: 100%;
+    @include media-breakpoint-up(sm) {
+        width: 50%;
+    }
+    padding-right: 1em;
+    float: left;
+}
