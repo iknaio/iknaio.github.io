@@ -7898,4 +7898,26 @@ span.o3m41l:after {
   content: attr(data-y);
 }
 
+.image-left {
+  width: 100%;
+  padding-right: 1em;
+  float: left;
+}
+@media (min-width: 576px) {
+  .image-left {
+    width: 50%;
+  }
+}
+
+.image-right {
+  width: 100%;
+  padding-left: 1em;
+  float: right;
+}
+@media (min-width: 576px) {
+  .image-right {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
