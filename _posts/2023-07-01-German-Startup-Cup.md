@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "German Startup Cup - Fintech: Second place for Iknaio"
-image: "assets/news/German Startup Cup Fintech.jpg"
+image: "assets/news/German Startup Cup Fintech-800x600.jpg"
 excerpt: "Iknaio has been honored with the second place in the category Fintech at the German Startup Cup"
 ---
 {% responsive_image class: "image-right" path: "assets/news/German Startup Cup Fintech.jpg" %}

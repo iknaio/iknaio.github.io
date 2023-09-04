@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Iknaio Cryptoasset Analytics has been honored as the best startup 
-image: "assets/news/Iknaio winning Austrian Blockchain Award 2023 small.jpg"
+image: "assets/news/Iknaio winning Austrian Blockchain Award 2023-800x459.jpg"
 excerpt: "The Austrian Blockchain Award for the best startup went to Iknaio!"
 ---
 
