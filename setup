@@ -6,6 +6,7 @@ if [ $? -gt 0 ]; then
     docker run \
         --name ikna.io \
         -p 4000:4000 \
+        -e JEKYLL_ROOTLESS=1 \
         -d \
         -v $(pwd):/srv/jekyll jekyll/jekyll:4.2.0 \
         bash -c "bundle install && apk add imagemagick && sleep infinity" 
