@@ -7891,22 +7891,6 @@ iframe.order {
   }
 }
 
-<<<<<<< Updated upstream
-=======
-/* just-the-docs overrides */
-.search-active .main {
-  position: relative;
-}
-
-.search-active .search {
-  z-index: 2000;
-}
-
-.btn-primary {
-  background-image: none;
-}
-
->>>>>>> Stashed changes
 span.o3m41l:before {
   content: attr(data-x) "@";
 }
