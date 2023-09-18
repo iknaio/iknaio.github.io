@@ -15,5 +15,7 @@ push: setup build
 		git commit -m 'generate' -a && \
 		git push
 
+clean:
+	docker rm -f ikna.io
 
-.PHONY: build setup serve push
+.PHONY: build setup serve push clean
