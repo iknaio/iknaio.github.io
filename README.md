@@ -11,7 +11,8 @@
 ## Develop
 
 1. Clone this repo.
-2. Run `make serve`.
+2. Run `make clean`.
+3. Run `make serve`.
 
 Jekyll is recompiling scss on any content change, regardless whether an scss file is concerned or not. This results in a lame DevEx. So we compile scss outside of the jekyll and let jekyll pick up the generated css.
 
