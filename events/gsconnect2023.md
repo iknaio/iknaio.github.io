@@ -22,7 +22,7 @@ for November 9th, 2023, at the [Complexity Science Hub Vienna](https://csh.ac.at
 
 # Preliminary agenda
 
-## Morining session - User Stories
+## Morning session - User Stories
 
 Our *morning session* will delve into the experiences of our **users** and their diverse applications
 of GraphSense. Listen to contributors to our development journey, and learn how several have
