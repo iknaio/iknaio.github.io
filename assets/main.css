@@ -7926,7 +7926,6 @@ span.o3m41l:after {
 
 table {
   border-radius: 5px;
-  font-size: 12px;
   font-weight: normal;
   border: 1px solid #F8F8F8;
   border-collapse: collapse;
@@ -7943,7 +7942,6 @@ td, th {
 
 td {
   border-right: 1px solid #f8f8f8;
-  font-size: 12px;
 }
 
 thead th {
@@ -7995,7 +7993,6 @@ tr:nth-child(even) {
     overflow-x: hidden;
     overflow-y: auto;
     width: 120px;
-    font-size: 13px;
     text-overflow: ellipsis;
   }
   table thead th {
