@@ -18,7 +18,7 @@ push: build
 clean:
 	docker rm -f ikna.io
 
-assets/main.css:
+assets/main.css: sass/iknaio.scss
 	sass sass/iknaio.scss assets/main.css
 
 .PHONY: build setup serve push clean
