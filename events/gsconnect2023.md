@@ -14,7 +14,13 @@ forum to discuss ongoing initiatives and to collaboratively determine the
 future direction of the GraphSense platform.
 
 This event is open to everyone interested, but
-[registration](https://forms.gle/cZ3i8Aq6oyYYow4n9) is required.
+registration is required.
+
+<div class="row justify-content-center my-5">
+    <div class="col-6 d-flex justify-content-center">
+        <a href="https://forms.gle/cZ3i8Aq6oyYYow4n9" class="btn btn-secondary btn-lg">Register</a>
+    </div>
+</div>
 
 The event is organized by the core developers of GraphSense and is scheduled
 for November 9th, 2023, at the [Complexity Science Hub (CSH) Vienna](https://csh.ac.at).
