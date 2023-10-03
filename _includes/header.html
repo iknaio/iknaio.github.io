@@ -53,23 +53,3 @@
     </div>
   </nav>
 </div>
-<script type="text/javascript">
-window.onscroll = function() {scrollFunction()};
-
-let lastScrollTop = 0;
-function scrollFunction() {
-    return
-    const clsName = ' navbar-slim'
-    const scrollTop = document.body.scrollTop || document.documentElement.scrollTop
-    const elem = document.querySelector("nav.navbar")
-    if (Math.abs(lastScrollTop - scrollTop) < 10) return
-    if (scrollTop > 80) {
-        if (elem.className.indexOf(clsName) !== -1) return;
-        elem.className += clsName;
-    } else {
-        elem.className = elem.className.replace(clsName, '');
-    }
-    lastScrollTop = scrollTop;
-}
-</script>
-
