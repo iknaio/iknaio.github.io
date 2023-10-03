@@ -34,7 +34,9 @@ $input-btn-font-family: $headings-font-family;
 // Configuration
 @import "bootstrap/functions";
 @import "bootstrap/variables";
+@import "bootstrap/variables-dark";
 @import "bootstrap/mixins";
+@import "bootstrap/maps";
 @import "bootstrap/utilities";
 
 // Layout & components
