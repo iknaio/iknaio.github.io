@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About us
+nav_exclude: true
 ---
 
 Founded in 2021, Iknaio provides operational services around the open-source cryptoasset analytics platform GraphSense. Iknaio offers these services to investigators from national authorities, law enforcement agencies, security companies, and the payment industry to help them uncover and trace criminally relevant crypto-based transactions. Iknaio also offers several customer-specific extensions built on top of GraphSense. Iknaio offers a cryptoasset analytics platform that has been designed as data science platform from the very beginning. Like other tools it provides a dashboard for manual investigations but, more importantly, each investigation step is also executable automatically. This is a pre-condition for automation and the enabler for establishing automated forensics, compliance, and reporting workflows.

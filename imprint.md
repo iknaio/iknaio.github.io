@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Imprint
+nav_exclude: true
+search_exclude: true
 ---
 Duty to inform according to §5 E-Commerce Act, §14 Company Code, §63 Industrial Code and duty to disclose according to §25 Media Act.
 <p>Iknaio Cryptoasset Analytics GmbH<br/>
