@@ -5,6 +5,7 @@ image: "assets/news/one conference iknaio cflw.jpg"
 excerpt: "The inaugural joint exhibition of Iknaio Cryptoasset Analytics GmbH and CFLW Cyber Strategies partnership at ONE Conference."
 
 ---
+{% responsive_image class: "image-right" path: "assets/news/one conference iknaio cflw.jpg" %}
 
 The inaugural joint exhibition of Iknaio Cryptoasset Analytics GmbH and CFLW Cyber Strategies partnership was nothing short of spectacular! We were right on the mark with our focus on Dark Web and Crypto-Asset Investigations. This collaboration is underpinned by our distinctive, open, and transparent technology, poised to find its way onto every investigator's desk in the near future.
 Every conversation held during these two days held immense significance, owing to the presence of experts exclusively. This attribute sets the ONE Conference apart as truly unique. In the weeks ahead, we'll be fully engaged in following up on the promising connections made.
