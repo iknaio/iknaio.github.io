@@ -3,6 +3,8 @@ layout: docs
 title: Inspecting address attribution tags
 parent: Using Iknaio Pathfinder
 nav_order: 50
+nav_exclude: true
+published: false
 ---
 
 Attribution tags are any form of context information that can be attributed to an address, transaction, or cluster, such as the name of an exchange hosting the associated wallet or some other personally identifiable information (PII) of the account holder. The strength of the attribution approach lies in combining address clusters with attribution tags: a tag attributed to a single address being controlled by some cryptoasset service, which typically forms a large address cluster, can easily de-anonymise hundreds of thousands of addresses.

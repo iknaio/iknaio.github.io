@@ -3,6 +3,8 @@ layout: docs
 title: Searching for addresses, transactions, labels, or blocks
 parent: Using Iknaio Pathfinder
 nav_order: 20
+nav_exclude: true
+published: false
 ---
 
 When using the GraphSense dashboard, users typically want to search for a given address, a given transaction, a particular label (e.g., Kraken, Binance, Coinbase), or a certain block. The user can enter the leading characters of an address (e.g., 17vzpL...) and GraphSense returns matching addresses found in the corresponding ledgers. The user can select the address to be inspected further.

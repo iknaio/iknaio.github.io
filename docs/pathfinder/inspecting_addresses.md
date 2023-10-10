@@ -3,6 +3,8 @@ layout: docs
 title: Inspecting addresses and their statistical properties and other details
 parent: Using Iknaio Pathfinder
 nav_order: 30
+nav_exclude: true
+published: false
 ---
 
 After having selected an address, the user sees that address (the focus address) on the dashboard and a property box summarising the most important statistical properties, as shown in Figure 5. The box shows the cryptocurrency that address is part of (BTC), the number of available attribution tags (2) for that address, the number of transactions that address has been involved (19) as a receiver of funds (17) and as a sender of funds (2). It also shows the number of addresses that sent funds to the focus address (29) and the number of addresses that received funds from the focus address (2). Additionally, it shows the first usage date of that address (11/02/2018), when it was used last (11/15/2018), and the corresponding usage period (approx. 13 days). Finally, it shows how much that address has received in total (1.5784 BTC) and the current balance of that address (0 BTC).

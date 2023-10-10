@@ -3,6 +3,8 @@ layout: docs
 title: Annotating addresses and entities
 parent: Using Iknaio Pathfinder
 nav_order: 80
+nav_exclude: true
+published: false
 ---
 
 A common use case while investigating transaction flows is annotating addresses and entities with individual information (tags). Right-clicking on an entity or address offers the option for this. A form pops up which provides the following input fields (see Figure 15):

@@ -3,6 +3,8 @@ layout: docs
 title: Ledger statistics page
 parent: Using Iknaio Pathfinder
 nav_order: 10
+nav_exclude: true
+published: false
 ---
 
 After entering their API key, users are forwarded to the ledger statistics page, which provides an overview of currently supported ledgers. It is essential to know that GraphSense can support any Bitcoin-like UTXO ledger and any Ethereum-like account model ledger and that additional ledgers can easily be integrated if needed, typically on (customer-)demand.

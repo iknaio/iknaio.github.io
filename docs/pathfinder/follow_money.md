@@ -3,6 +3,8 @@ layout: docs
 title: Following the money
 parent: Using Iknaio Pathfinder
 nav_order: 60
+nav_exclude: true
+published: false
 ---
 
 Starting from a given focus address, the user can follow the money flows by clicking on the right- or left-hand side of an address. If the number of incoming- or outgoing addresses is lower than a certain threshold (25), then the dashboard automatically expands the connected addresses. If the number is higher and hard to visualise, it opens the address-detail view table and lets the user select which addresses to display on the dashboard.

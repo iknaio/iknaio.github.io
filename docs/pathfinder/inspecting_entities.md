@@ -3,6 +3,8 @@ layout: docs
 title: Inspecting entities (address clusters) and their statistical properties
 parent: Using Iknaio Pathfinder
 nav_order: 40
+nav_exclude: true
+published: false
 ---
 
 

@@ -3,6 +3,8 @@ layout: docs
 title: Exporting and importing data and visualizations
 parent: Using Iknaio Pathfinder
 nav_order: 90
+nav_exclude: true
+published: false
 ---
 
 At any time, users may download the current application state in various ways. By clicking the download symbol   in the top right toolbar, the following options exist (see Figure 16):
