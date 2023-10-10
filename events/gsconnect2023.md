@@ -41,17 +41,17 @@ tag contributors.
 
 <div class="table-wrapper" markdown="1">
 
-| Time          | Topic                                                                     | Speaker                        |
-|:-------------:|:-------------------------------------------------------------------------:|:------------------------------:|
-| 09:00 - 09:15 | Welcome                                                                   |                                |
-| 09:15 - 09:30 | GraphSense: Vision and Future                                             | Bernhard Haslhofer<br>(CSH)    |
-| 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets                               | Basile Verhulst<br>(Chainlabs) |
-| 10:00 - 10:30 | Coffee break                                                              |                                |
-| 10:30 - 11:00 | Tracing simple cases using Pathfinder						    			| tbd.                           |
-| 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office    | tbd.                           |
-| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation  			| tbd.                           |
-| 12:00 - 12:30 | Mapping global cryptoasset workflows                                      | tbd.                           |
-| 12:30 - 14:00 | Lunch                                                                     | tbd.                           |
+| Time          | Topic                                                                     | Speaker                               |
+|:-------------:|:-------------------------------------------------------------------------:|:-------------------------------------:|
+| 09:00 - 09:15 | Welcome                                                                   |                                       |
+| 09:15 - 09:30 | GraphSense: Vision and Future                                             | [Bernhard Haslhofer](https://bernhardhaslhofer.info/)<br>([CSH](https://www.csh.ac.at/))           |
+| 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets                               | Basile Verhulst<br>([Chainlabs](https://chainlabs.ai/))        |
+| 10:00 - 10:30 | Coffee break                                                              |                                       |
+| 10:30 - 11:00 | Tracing simple cases using Pathfinder                                     | tbd.                                  |
+| 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office    | Barbara Krüll<br>([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))        |
+| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | tbd.                                  |
+| 12:00 - 12:30 | Project Atlas: Modeling cross-border flows                                | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
+| 12:30 - 13:30 | Lunch (Pizza at CSH)                                                      |                                       |
 
 </div>
 
@@ -69,8 +69,8 @@ and release roadmap for the upcoming months.
 
 | Time          | Topic                                               | Speaker            |
 |:-------------:|:---------------------------------------------------:|:------------------:|
-| 14:00 - 14:30 | How to collect and share attribution tags           | tbd				   |
-| 14:30 - 15:00 | How to contribute to GraphSense development         | tbd                |
+| 13:30 - 14:15 | How to collect and share attribution tags           | tbd				   |
+| 14:15 - 15:00 | How to contribute to GraphSense development         | tbd                |
 | 15:00 - 15:30 | Coffee break                                        |                    |
 | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer |
 
