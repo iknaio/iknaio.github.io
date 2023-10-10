@@ -94,7 +94,6 @@ div.frame {
     font-family: $text-font-family;
     display: flex;
     flex-direction: column;
-    max-width: 1920px;
     margin: 0 auto;
     min-height: 100vh;
     box-shadow: 0 0 100px rgba(0,0,0,0.5);
@@ -666,20 +665,6 @@ iframe.order {
         height: 160vh;
     }
 
-}
-
-/* just-the-docs overrides */
-
-.search-active .main {
-    position: relative;
-}
-
-.search-active .search {
-    z-index: 2000;
-}
-
-.btn-primary {
-    background-image: none;
 }
 
 @import "email-obfuscator";
