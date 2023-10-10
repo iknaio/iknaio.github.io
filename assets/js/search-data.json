@@ -1,0 +1,198 @@
+{"0": {
+    "doc": "About us",
+    "title": "Values and Mission",
+    "content": "We have a strong background in science and a passion for technology and see that some techniques used in cryptoassets could advance innovation in the financial sector. While we are enthusiastic about certain technologies used in cryptoassets, we are committed to preventing their misuse for illicit activities. We believe that it is essential to provide vetted authorities with the necessary tools to combat such activities efficiently. Furthermore, we recognize that sustainable growth and long-term trust in emerging technologies depend on a comprehensive understanding and management of risks. To this end, we must ensure that the high volatility and risk inherent in the crypto space do not negatively impact users in the traditional financial sector. This requires robust risk management protocols that can prevent any potential failures in the crypto market from spilling over and causing harm to users in more established financial systems. Therefore, our vision is to provide services that help authorities and businesses in understanding money flows in the cryptoasset ecosystem. We acknowledge that current investigation practices for cryptoassets have significant limitations. Response times are often slow due to the high cost and limited availability of specialized tools. Furthermore, investigators frequently find themselves working on the same cases without the benefit of knowledge sharing, which can lead to inefficiencies and redundancies. Finally, the highly complex nature of money laundering networks, which are often generated and controlled by machines, can make it challenging for investigators to follow the money manually. In our view, the best way to address these challenges is through the widespread availability of basic cryptoasset tracing tools and increased automation. By automating certain processes and enabling investigators to collaborate more effectively, we can improve response times and streamline investigations. As scientists, we understand that data sovereignty is an essential prerequisite for implementing effective and cost-efficient analytics workflows. In addition, we recognize that true comprehension of results is only achievable if the underlying data is both available and interpretable. These considerations are especially important when evidence resulting from cryptoasset investigations must be presented and defended in court or when reproducible facts are necessary for informed policy-making in the cryptoasset space. To ensure the highest level of transparency and accountability in our services, we have made a commitment to open-source software and detailed data provenance records. This approach ensures that our software is accessible to all and that our processed data points can be traced back to their original sources. We believe that this level of transparency is essential to building trust in the cryptoasset ecosystem and fostering a culture of responsible data use. Ultimately, our goal is to provide our clients with the tools and resources they need to make informed decisions based on accurate, reliable data. At the core of our philosophy is the concept of co-creation. We recognize that there is no one-size-fits-all solution to the complex challenges posed by cybercrime and the misuse of cryptoassets. Instead, we believe that the most effective tools are those that are highly specialized on solving a specific problem and, at the same time, open enough to be integrated into broader forensic workflows tailored to needs of investigators. Therefore, we advocate for public-private partnerships that bring together experts with diverse but complementary backgrounds. By collaborating and sharing expertise, we are developing additional product features and make them available to our customers. We believe that this approach is key to promoting innovation and advancing the fight against cybercrime and the abuse of cryptoassets. Our commitment to co-creation extends beyond the development of tools. We also support our customers in becoming more efficient and effective by implementing highly automized data-driven forensics, compliance, and reporting workflows. In summary, our vision is to streamline and automate cryptoasset investigations for our customers, by providing a user-friendly technology accessible from any desk, enabling them to access transparent information and make informed decisions. We aspire to empower everyone with the tools they need to navigate the complex world of cryptoassets. ",
+    "url": "/about.html#values-and-mission",
+    
+    "relUrl": "/about.html#values-and-mission"
+  },"1": {
+    "doc": "About us",
+    "title": "Ownership and Legal Structure",
+    "content": "Iknaio is a limited liability company headquartered in Austria. We are proud to be a spin-off of the Complexity Science Hub, an internationally recognized center of excellence for complexity science research. Our founding owners bring a wealth of scientific, technical, and domain expertise to our team, particularly in cryptoasset analytics. At Iknaio, we believe that our diverse and highly experienced ownership team is the foundation of our success. By combining cutting-edge scientific research with real-world expertise in software development, data engineering, and law enforcement, we are uniquely positioned to provide our clients with innovative, effective, and trustworthy solutions for the challenges posed by cryptoasset investigations. ",
+    "url": "/about.html#ownership-and-legal-structure",
+    
+    "relUrl": "/about.html#ownership-and-legal-structure"
+  },"2": {
+    "doc": "About us",
+    "title": "Disclaimer",
+    "content": "Iknaio provides cutting-edge investigative capabilities to vetted authorities and security professionals worldwide, empowering them to combat the abuse of cryptoassets and make informed decisions about potential risks. However, it is important to note that the use of our services is subject to the laws and legal procedures of the jurisdiction to which a security professional belongs. At Iknaio, we recognize that security is a necessary precondition for trust in the marketplace and protection of online rights. Therefore, the use of our services must comply with these principles. Specifically, it is strictly forbidden to use Iknaio to engage in any unethical interactions or activities of a political, military, religious, or racist nature. We take our responsibility to combat the abuse of cryptoassets seriously and will work tirelessly to ensure that our services are used for lawful purposes only. We believe that by upholding the highest standards of ethical conduct, we can build long-term trust with our clients and help create a safer, more secure digital world for all. ",
+    "url": "/about.html#disclaimer",
+    
+    "relUrl": "/about.html#disclaimer"
+  },"3": {
+    "doc": "About us",
+    "title": "Team",
+    "content": "Michael Fröwis, Ph.D. Michael Fröwis has 5+ years of experience in cryptoasset analytics. He recently finished his Ph.D. in Computer Science, at the University of Innsbruck. His main research interest are program analysis techiques for cryptoasset analytics. During his studies he worked on multiple international research projects focusing on law enforcement in the crypto-space. Dr. Bernhard Haslhofer . Bernhard has been leading research and development around GraphSense for more than six years, is a primary contributor to the open-source code base, and is a co-founder of Iknaio. He has a Ph.D. in Computer Science, spent his PostDoc years at Cornell University, and has been working in cryptoasset analytics since the early days of Bitcoin. He also leads the CryptoFinance research group at the Complexity Science Hub Vienna. Dr. Ross King . Ross King is a co-founder of Iknaio and is responsible for research funding. He leads the AIT unit \"Data Science &amp; Artificial Intelligence\" and has coordinated multiple international projects focused on cryptocurrencies. He has a Ph.D. in physics from Stanford University. Matthias Rella . As an expert in Web technologies, Matthias Rella is a primary contributor and responsible for GraphSense's REST API development and its Dashboard and client tools. He holds master's degrees in Computer Science and Linguistics and has worked in Web-based information management for more than ten years. Rainer Stütz . Rainer Stütz has 15+ years of extensive experience in data crunching. He is also a primary contributor to GraphSense and is responsible for backend development and large-scale analytics. His background is in applied mathematics, and he has a keen interest in computational statistics and big data. Karl Zettl . Karl Zettl is co-founder and CEO of Iknaio Cryptoasset Analytics GmbH and is responsible for sales and marketing and business development. He has been working in different management positions in project management, business development, and sales for more than 15 years, focusing on the payment industry for CEE and DACH region. ",
+    "url": "/about.html#team",
+    
+    "relUrl": "/about.html#team"
+  },"4": {
+    "doc": "About us",
+    "title": "About us",
+    "content": "Founded in 2021, Iknaio provides operational services around the open-source cryptoasset analytics platform GraphSense. Iknaio offers these services to investigators from national authorities, law enforcement agencies, security companies, and the payment industry to help them uncover and trace criminally relevant crypto-based transactions. Iknaio also offers several customer-specific extensions built on top of GraphSense. Iknaio offers a cryptoasset analytics platform that has been designed as data science platform from the very beginning. Like other tools it provides a dashboard for manual investigations but, more importantly, each investigation step is also executable automatically. This is a pre-condition for automation and the enabler for establishing automated forensics, compliance, and reporting workflows. ",
+    "url": "/about.html",
+    
+    "relUrl": "/about.html"
+  },"5": {
+    "doc": "Getting access",
+    "title": "Getting access",
+    "content": "To access the GraphSense dashboard or API, users need an API key from Iknaio Cryptoasset Analytics GmbH. Individual users can request keys at https://ikna.io, while institutional users receive them automatically via provided email addresses. After obtaining an API key, they can access the dashboard and the API. See tutorial above . ",
+    "url": "/docs/api_key.html",
+    
+    "relUrl": "/docs/api_key.html"
+  },"6": {
+    "doc": "Using Iknaio Automator",
+    "title": "Installing the client library",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+    "url": "/docs/automator.html#installing-the-client-library",
+    
+    "relUrl": "/docs/automator.html#installing-the-client-library"
+  },"7": {
+    "doc": "Using Iknaio Automator",
+    "title": "Using Iknaio Automator",
+    "content": "Iknaio Automator helps users in enhancing efficiency by automating cryptoasset forensics, compliance, or reporting workflows programmatically. ",
+    "url": "/docs/automator.html",
+    
+    "relUrl": "/docs/automator.html"
+  },"8": {
+    "doc": "Exporting and importing data and visualizations",
+    "title": "Exporting and importing data and visualizations",
+    "content": "At any time, users may download the current application state in various ways. By clicking the download symbol in the top right toolbar, the following options exist (see Figure 16): . | GraphSense File (.gs): Downloads the complete graph as is, including annotations and highlights. | TagPack (.yaml): Download user-defined tags as a TagPack YAML file, the standard manner in which GraphSense handles tags outside of the application. | Graphics (.svg): Download the drawing of the graph itself as a scalable vector graphic (SVG) which can be easily used in other contexts (e.g., documents) or for printing. | . Since all application state is only stored in the browser memory, it is lost if the browser or browser tab is closed. However, having saved a GraphSense file, the user can import it back into the dashboard by clicking the folder icon left to the download icon in the toolbar and selecting “GraphSense File”. After picking a file with the “.gs” extension from the user’s file system, the application will recreate it by first fetching the address/entity data from the GraphSense backend, then placing the nodes according to the stored state and finally fetching the edges between the nodes. This process may take a few seconds depending on how big the exported graph is, but it results in an up-to-date application state with the recently crawled ledger data. Apart from importing a whole graph, the user may also import tags only by choosing the “TagPack (.yaml)” option. The annotations will then apply to the respective addresses and entities referenced in this TagPack. ",
+    "url": "/docs/pathfinder/exporting.html",
+    
+    "relUrl": "/docs/pathfinder/exporting.html"
+  },"9": {
+    "doc": "Following the money",
+    "title": "Following the money",
+    "content": "Starting from a given focus address, the user can follow the money flows by clicking on the right- or left-hand side of an address. If the number of incoming- or outgoing addresses is lower than a certain threshold (25), then the dashboard automatically expands the connected addresses. If the number is higher and hard to visualise, it opens the address-detail view table and lets the user select which addresses to display on the dashboard. A directed edge between two addresses (see Figure 10) represents the aggregated money flow between them. The edge label can be configured (gear symbol) and either shows the aggregated sum of values transferred between two addresses or the aggregated number of involved transactions. By clicking on an edge, the user can inspect involved transactions in more detail and inspect their specific inputs and outputs. We point out that following the money flows on the address-level is a key feature for many blockchain and cryptoasset analytics tasks because it represents what an analyst is typically interested in: the flow of money between addresses. The underlying address-graph is the corresponding data representation required to support that kind of traversal. GraphSense supports the inspection of individual addresses but refrains from providing transaction-level tracing features since this is already supported by many openly available tools (e.g., Blockstream4 explorer). Analogous to following the money on the address-level, the user can also follow money starting from a given focus entity, i.e., a cluster of addresses. Just as the nodes represent aggregations of addresses, the edges in this graph represent aggregations of money flows. By clicking on an edge, the user can see detailed information about the data points contributing to this information. The example provided in Figure 11 shows a typical money laundering pattern: the perpetrator, who received funds from sextortion spam victims, spreads the funds over several intermediate wallets to make it difficult for authorities to trace the funds. We point out that inspecting money flows between entities/clusters can be highly effective because the investigator is presented with a highly aggregated view and can quickly identify potential connections without the need to inspect (lower-level) address flows or (lowest- level) transactions. However, we explicitly warn against following money flows on the cluster- level only if the underlying data points forming a cluster are unknown and might potentially comprise false positives. Therefore, GraphSense provides the combined address- and entity- level view, which allows the investigator to first follow the money on the entity level and then refine relevant paths on the address level. Since following individual money flows is a tedious and resource-intensive task, GraphSense also provides an automated path search feature (see Figure 12). By right-clicking on an entity box, the user can start a search for certain types (e.g., Exchange) of source or target nodes in both directions. Since the search space can be very large, the user must restrict the search to a certain depth (e.g., 4), breadth (e.g., 20), and maximum size of an address cluster (e.g., 20) hit during a search request. The dashboard then presents the results, as shown in Figure 13. ",
+    "url": "/docs/pathfinder/follow_money.html",
+    
+    "relUrl": "/docs/pathfinder/follow_money.html"
+  },"10": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Preliminary agenda",
+    "content": " ",
+    "url": "/events/gsconnect2023.html#preliminary-agenda",
+    
+    "relUrl": "/events/gsconnect2023.html#preliminary-agenda"
+  },"11": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Ice breaker event",
+    "content": "There will be an ice breaker event the evening before GraphSense Connect 2023. We will find a nice location and announce it asap. ",
+    "url": "/events/gsconnect2023.html#ice-breaker-event",
+    
+    "relUrl": "/events/gsconnect2023.html#ice-breaker-event"
+  },"12": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Morning session - User and Partner Stories",
+    "content": "This session will delve into the experiences of our users and their diverse applications of GraphSense. Also listen to our partners and how they have transitioned to become integral attribution tag contributors. | Time | Topic | Speaker | . | 09:00 - 09:15 | Welcome |   | . | 09:15 - 09:30 | GraphSense: Vision and Future | Bernhard Haslhofer(CSH) | . | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets | Basile Verhulst(Chainlabs) | . | 10:00 - 10:30 | Coffee break |   | . | 10:30 - 11:00 | Tracing simple cases using Pathfinder | tbd. | . | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office | Barbara Krüll(ZCB Bamberg) | . | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation | tbd. | . | 12:00 - 12:30 | Project Atlas: Modeling cross-border flows | Jan Paulick(BIS Innovation Hub) | . | 12:30 - 13:30 | Lunch (Pizza at CSH) |   | . ",
+    "url": "/events/gsconnect2023.html#morning-session---user-and-partner-stories",
+    
+    "relUrl": "/events/gsconnect2023.html#morning-session---user-and-partner-stories"
+  },"13": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Afternoon session - Data sharing and Co-creation",
+    "content": "In this session, we will focus on collaborative tagging, data sharing, and contributing to the GraphSense code base in general. We will explain TagPacks, our standard format for organizing and sharing attribution tags. We will also explain how one can become contributor to the system and how to create customized extensions on top of GraphSense. Finally, we will lay out and openly discuss our feature and release roadmap for the upcoming months. | Time | Topic | Speaker | . | 13:30 - 14:15 | How to collect and share attribution tags | tbd | . | 14:15 - 15:00 | How to contribute to GraphSense development | tbd | . | 15:00 - 15:30 | Coffee break |   | . | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up | Bernhard Haslhofer | . ",
+    "url": "/events/gsconnect2023.html#afternoon-session---data-sharing-and-co-creation",
+    
+    "relUrl": "/events/gsconnect2023.html#afternoon-session---data-sharing-and-co-creation"
+  },"14": {
+    "doc": "GraphSense Connect 2023",
+    "title": "GraphSense Connect 2023",
+    "content": "Open source, collaboration, and co-creation are fundamental principles that have driven the development of the GraphSense Cryptoasset Analytics platform over the years. The inaugural GraphSense Connect Event is designed to further this vision, aiming to connect users, developers, and stakeholders. It offers a dynamic forum to discuss ongoing initiatives and to collaboratively determine the future direction of the GraphSense platform. This event is open to everyone interested, but registration is required. Register The event is organized by the core developers of GraphSense and is scheduled for November 9th, 2023, at the Complexity Science Hub (CSH) Vienna. ",
+    "url": "/events/gsconnect2023.html",
+    
+    "relUrl": "/events/gsconnect2023.html"
+  },"15": {
+    "doc": "Highlighting important paths",
+    "title": "Highlighting important paths",
+    "content": "Having discovered money flows of interest, the user can highlight entities and addresses individually by assigning colours to them (see Figure 14). The highlighting tool can be found in the toolbar in the top right as a pen icon. By clicking on it, a set of predefined colours appears. The user may now pick one of them and see the cursor turn into a crosshair when hovering over an entity or address. Simple clicking assigns the selected colour to the node. Edges between addresses/entities highlighted in the same colour are also drawn in the same colour. Additionally, the user has the option to label colours by typing into the respective text field in the highlighting tool. The trash bin icon next to the text field leads to highlights of that colour being removed from the graph. ",
+    "url": "/docs/pathfinder/highlighting.html",
+    
+    "relUrl": "/docs/pathfinder/highlighting.html"
+  },"16": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Preliminary agenda",
+    "content": " ",
+    "url": "/events/#preliminary-agenda",
+    
+    "relUrl": "/events/#preliminary-agenda"
+  },"17": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Ice breaker event",
+    "content": "There will be an ice breaker event the evening before GraphSense Connect 2023. We will find a nice location and announce it asap. ",
+    "url": "/events/#ice-breaker-event",
+    
+    "relUrl": "/events/#ice-breaker-event"
+  },"18": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Morning session - User and Partner Stories",
+    "content": "This session will delve into the experiences of our users and their diverse applications of GraphSense. Also listen to our partners and how they have transitioned to become integral attribution tag contributors. | Time | Topic | Speaker | . | 09:00 - 09:15 | Welcome |   | . | 09:15 - 09:30 | GraphSense: Vision and Future | Bernhard Haslhofer(CSH) | . | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets | Basile Verhulst(Chainlabs) | . | 10:00 - 10:30 | Coffee break |   | . | 10:30 - 11:00 | Tracing simple cases using Pathfinder | tbd. | . | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office | Barbara Krüll(ZCB Bamberg) | . | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation | tbd. | . | 12:00 - 12:30 | Project Atlas: Modeling cross-border flows | Jan Paulick(BIS Innovation Hub) | . | 12:30 - 13:30 | Lunch (Pizza at CSH) |   | . ",
+    "url": "/events/#morning-session---user-and-partner-stories",
+    
+    "relUrl": "/events/#morning-session---user-and-partner-stories"
+  },"19": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Afternoon session - Data sharing and Co-creation",
+    "content": "In this session, we will focus on collaborative tagging, data sharing, and contributing to the GraphSense code base in general. We will explain TagPacks, our standard format for organizing and sharing attribution tags. We will also explain how one can become contributor to the system and how to create customized extensions on top of GraphSense. Finally, we will lay out and openly discuss our feature and release roadmap for the upcoming months. | Time | Topic | Speaker | . | 13:30 - 14:15 | How to collect and share attribution tags | tbd | . | 14:15 - 15:00 | How to contribute to GraphSense development | tbd | . | 15:00 - 15:30 | Coffee break |   | . | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up | Bernhard Haslhofer | . ",
+    "url": "/events/#afternoon-session---data-sharing-and-co-creation",
+    
+    "relUrl": "/events/#afternoon-session---data-sharing-and-co-creation"
+  },"20": {
+    "doc": "GraphSense Connect 2023",
+    "title": "GraphSense Connect 2023",
+    "content": "Open source, collaboration, and co-creation are fundamental principles that have driven the development of the GraphSense Cryptoasset Analytics platform over the years. The inaugural GraphSense Connect Event is designed to further this vision, aiming to connect users, developers, and stakeholders. It offers a dynamic forum to discuss ongoing initiatives and to collaboratively determine the future direction of the GraphSense platform. This event is open to everyone interested, but registration is required. Register The event is organized by the core developers of GraphSense and is scheduled for November 9th, 2023, at the Complexity Science Hub (CSH) Vienna. ",
+    "url": "/events/",
+    
+    "relUrl": "/events/"
+  },"21": {
+    "doc": "Using Iknaio Pathfinder",
+    "title": "Using Iknaio Pathfinder",
+    "content": "Iknaio Pathfinder provids users with the ability to easily inspect and trace cryptoasset payment flows using a simple visual dashboard. ",
+    "url": "/docs/pathfinder/",
+    
+    "relUrl": "/docs/pathfinder/"
+  },"22": {
+    "doc": "About Graphsense hosted by Iknaio",
+    "title": "About Graphsense hosted by Iknaio",
+    "content": "Demand for cryptoasset analysis tools is increasing: businesses dealing with cryptoassets analyse transactions to fulfil compliance guidelines and regulations; law enforcement needs these techniques to track and trace illicit money flows; designers of distributed ledger technology analyse deployed systems to make informed system design decisions; finally, analysts in businesses and authorities must analyse transactional data to understand markets and capital market flows between significant players on the market. GraphSense is a cryptoasset analytics platform developed and hosted in Europe. It has been designed as an extensible and scalable data science platform for executing customised analytics tasks on data gathered from multiple blockchains and other contextually relevant off-chain sources, such as exchange rate services. Like other offerings, GraphSense provides a low-entry dashboard for investigating money flows. But, more importantly, it offers the flexibility to implement customised analytics procedures, either against an API or directly against the pre-computed network data sets, representing flows between addresses (address graph) and entities such as cryptoasset exchanges (entity graph). Furthermore, GraphSense introduces the notion of TagPacks, which support collaborative collection and provenance-aware curation of attribution tags, which de-anonymise real-world actors such as exchanges and are valuable data points in most analytics tasks. ",
+    "url": "/docs/",
+    
+    "relUrl": "/docs/"
+  },"23": {
+    "doc": "Inspecting addresses and their statistical properties and other details",
+    "title": "Inspecting addresses and their statistical properties and other details",
+    "content": "After having selected an address, the user sees that address (the focus address) on the dashboard and a property box summarising the most important statistical properties, as shown in Figure 5. The box shows the cryptocurrency that address is part of (BTC), the number of available attribution tags (2) for that address, the number of transactions that address has been involved (19) as a receiver of funds (17) and as a sender of funds (2). It also shows the number of addresses that sent funds to the focus address (29) and the number of addresses that received funds from the focus address (2). Additionally, it shows the first usage date of that address (11/02/2018), when it was used last (11/15/2018), and the corresponding usage period (approx. 13 days). Finally, it shows how much that address has received in total (1.5784 BTC) and the current balance of that address (0 BTC). Some of these statistics are aggregated and can be inspected in more detail by clicking the three-dot symbol next to each line. For instance, when clicking on the dots in the “Transactions” row, one can inspect the transactions this address has been involved in more detailed. The corresponding box on the dashboard displays the statistical properties of an address, which are important to understand when following the money flow, like the number of incoming (in-degree) and outgoing (out-degree) addresses. This specific example also shows a red-flash-light symbol indicating that this address has been involved in some form of abuse derived from the attribution tags. Analogous to addresses, GraphSense also provides statistical properties for transactions and blocks. Using the gear symbol in the top-right menu bar (see Figure 6), the user can configure view settings, like the type of information displayed on the dashboard. Most importantly, the user can change the type of currency (native coin vs fiat values) and convert all values in the property boxes and the dashboard considering historical exchange rates. It is also possible to switch the information displayed on address nodes and edges representing money flows (value vs the number of transactions). ",
+    "url": "/docs/pathfinder/inspecting_addresses.html",
+    
+    "relUrl": "/docs/pathfinder/inspecting_addresses.html"
+  },"24": {
+    "doc": "Inspecting entities (address clusters) and their statistical properties",
+    "title": "Inspecting entities (address clusters) and their statistical properties",
+    "content": "In UTXO ledgers, a user can create and control an arbitrary number of addresses at no cost. Linking and clustering these addresses into a single set representing the real-world entity that likely controls these addresses is an essential task in cryptoasset analytics. GraphSense currently implements the co-spent heuristics, which is also known as multiple-input heuristics and assumes that inputs spent in the same transactions are controlled by the same user who must possess the corresponding private key for signing these inputs. While this method has proved very effective in practice, a known, possible source for false positives are CoinJoins, which can be identified and filtered before applying those heuristics. Other known clustering heuristics rely on the identification of change addresses in the transaction outputs. However, since this depends on the technical nature of the client executing the transactions, GraphSense refrains from implementing any change heuristics and follows a very conservative clustering strategy and applies the multiple-input heuristics only. The underlying rationale is the avoidance of false positives, which we consider more important than implementing multiple but possibly ineffective heuristics. Using the dashboard, the user can also inspect an address cluster, which is called an “entity” in GraphSense (see Figure 7). Since entities are essentially aggregations of addresses (see Figure 8), the statistical properties for entities correspond to those seen on the address-level, just on an aggregate level. Additionally, the user sees a GraphSense-internal entity ID and the root address of an entity, which is the oldest address within an address cluster. This information is useful when comparing entities or address clusters across tools. TODO: add video . ",
+    "url": "/docs/pathfinder/inspecting_entities.html",
+    
+    "relUrl": "/docs/pathfinder/inspecting_entities.html"
+  },"25": {
+    "doc": "Inspecting address attribution tags",
+    "title": "Inspecting address attribution tags",
+    "content": "Attribution tags are any form of context information that can be attributed to an address, transaction, or cluster, such as the name of an exchange hosting the associated wallet or some other personally identifiable information (PII) of the account holder. The strength of the attribution approach lies in combining address clusters with attribution tags: a tag attributed to a single address being controlled by some cryptoasset service, which typically forms a large address cluster, can easily de-anonymise hundreds of thousands of addresses. Given the important role of attribution tags, GraphSense follows key legal requirements for forensic data processing, as outlined3 by legal scholars and technical experts in the field. The provenance of attribution tags, for instance, is a critical foundation for assessing their quality and authenticity, as well as for enabling trust and allowing reproducibility. Users can inspect the provenance (origin) and additional metadata of attribution tags by opening the corresponding “address tags” detail view. Figure 9, for instance, shows that the attribution tags labelling the given cluster originate from a scientific study on sextortion campaigns, which can be retrieved by following the provided source link. TODO: add video . ",
+    "url": "/docs/pathfinder/inspecting_tags.html",
+    
+    "relUrl": "/docs/pathfinder/inspecting_tags.html"
+  },"26": {
+    "doc": "Ledger statistics page",
+    "title": "Ledger statistics page",
+    "content": "After entering their API key, users are forwarded to the ledger statistics page, which provides an overview of currently supported ledgers. It is essential to know that GraphSense can support any Bitcoin-like UTXO ledger and any Ethereum-like account model ledger and that additional ledgers can easily be integrated if needed, typically on (customer-)demand. The ledger statistics page shows, for each ledger, the last update date and latest block, the number of transactions and addresses as well as the number of distinct labels (considering clustering in UTXO), and the overall percentage of de-anonymised addresses. GraphSense release 22.11 currently provides daily updates, whereas tighter update intervals can be configured when requested by the customer.v . It is important to know that generic clustering techniques, as they are implemented for UTXO ledgers like Bitcoin, cannot be applied to account-model ledgers like Ethereum. Therefore, the number of entities (clusters) in Ethereum is zero. TODO: add screenshot of statistics page . ",
+    "url": "/docs/pathfinder/ledger_statistics.html",
+    
+    "relUrl": "/docs/pathfinder/ledger_statistics.html"
+  },"27": {
+    "doc": "Searching for addresses, transactions, labels, or blocks",
+    "title": "Searching for addresses, transactions, labels, or blocks",
+    "content": "When using the GraphSense dashboard, users typically want to search for a given address, a given transaction, a particular label (e.g., Kraken, Binance, Coinbase), or a certain block. The user can enter the leading characters of an address (e.g., 17vzpL…) and GraphSense returns matching addresses found in the corresponding ledgers. The user can select the address to be inspected further. Autocompletion of user queries is also supported for transactions, labels, and blocks. Users can also enter multiple, whitespace-separated addresses in a row to inspect sets of addresses or money flow paths. TODO: add video . ",
+    "url": "/docs/pathfinder/searching.html",
+    
+    "relUrl": "/docs/pathfinder/searching.html"
+  }
+}
