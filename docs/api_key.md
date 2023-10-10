@@ -11,6 +11,6 @@ Individual users can request keys [here](https://www.ikna.io/#packages), while i
 
 After obtaining an API key, users can access the Iknaio Pathfinder and Automator.
 
-See tutorial above 
+Please see tutorial above for detailed instructions
 
 
