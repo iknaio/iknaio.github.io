@@ -12,7 +12,22 @@
     background-image: none;
 }
 
+.site-title {
+    display: none;
+}
+
 a:not([class]) {
     text-decoration-color: inherit;
 }
 
+.btn:hover {
+    background-image: none;
+}
+
+.main {
+    margin-top: -50px;
+}
+
+.site-nav {
+    padding-top: 1rem;
+}
