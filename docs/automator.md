@@ -2,6 +2,8 @@
 layout: docs
 title: Using Iknaio Automator
 nav_order: 30
+nav_exclude: true
+published: false
 ---
 
 Iknaio Automator helps users in enhancing efficiency by automating cryptoasset forensics, compliance, or reporting workflows programmatically.
