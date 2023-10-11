@@ -3,14 +3,9 @@ layout: docs
 title: Getting access
 nav_order: 10
 ---
+
+To utilize the Iknaio Pathfinder or Automator, you'll first require an API key. Individual users may obtain keys [here](https://www.ikna.io/#packages). In contrast, institutional users are directly provided keys at their registered email addresses.
+
+Below is a tutorial video guiding you on accessing the Iknaio Pathfinder using your API key.
+
 {% include youtube.html id='bBSSRRGk9F4' %}
-
-To access the GraphSense dashboard or API, users need an API key from Iknaio Cryptoasset Analytics GmbH. 
-
-Individual users can request keys [here](https://www.ikna.io/#packages), while institutional users receive them automatically via provided email addresses.
-
-After obtaining an API key, users can access the Iknaio Pathfinder and Automator.
-
-Please see tutorial above for detailed instructions.
-
-
