@@ -793,3 +793,32 @@ tr:nth-child(even) {
         text-align: center;
     }
 }
+
+/* just the docs overrides */
+
+
+@include media-breakpoint-up(md) {
+    .search-active .main {
+        position: relative;
+    }
+
+    .search-active .search {
+        z-index: 2000;
+    }
+
+    .btn-primary {
+        background-image: none;
+    }
+
+    .site-title {
+        display: none;
+    }
+
+    .main {
+        margin-top: -50px;
+    }
+
+    .site-nav {
+        padding-top: 1rem;
+    }
+}
