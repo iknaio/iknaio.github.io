@@ -1,3 +1,8 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -263,7 +268,7 @@ hr {
         background-position: bottom;
         background-repeat: repeat-x;
         background-size: cover;
-        min-height: min(21vw, 400px);
+        min-height: calc(min(21vw, 400px));
         max-height: 400px;
         padding-bottom: 5rem;
         a.bold {
@@ -564,7 +569,7 @@ a.project {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: min(25vw, 250px);
+    height: calc(min(25vw, 250px));
     background-color: $bg-grey;
     background-image: url("/assets/img/bg_head.svg");
     background-position: bottom;
