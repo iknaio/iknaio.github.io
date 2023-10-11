@@ -1697,20 +1697,10 @@ a.skip-to-main:focus, a.skip-to-main:active { color: #2c84fa; background-color: 
 div.opaque { background-color: #27262b; }
 
 /* just-the-docs overrides */
-.search-active .main { position: relative; }
-
-.search-active .search { z-index: 2000; }
-
-.btn-primary { background-image: none; }
-
-.site-title { display: none; }
-
 a:not([class]) { text-decoration-color: inherit; }
 
 .btn:hover { background-image: none; }
 
-.main { margin-top: -50px; }
-
-.site-nav { padding-top: 1rem; }
+.site-title { display: none; }
 
 /*# sourceMappingURL=just-the-docs-dark.css.map */

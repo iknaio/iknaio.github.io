@@ -41,46 +41,46 @@
     
     "relUrl": "/events/gsconnect2023.html"
   },"6": {
-    "doc": "About Graphsense hosted by Iknaio",
-    "title": "About Graphsense hosted by Iknaio",
-    "content": "Demand for cryptoasset analysis tools is increasing: businesses dealing with cryptoassets analyse transactions to fulfil compliance guidelines and regulations; law enforcement needs these techniques to track and trace illicit money flows; designers of distributed ledger technology analyse deployed systems to make informed system design decisions; finally, analysts in businesses and authorities must analyse transactional data to understand markets and capital market flows between significant players on the market. GraphSense is a cryptoasset analytics platform developed and hosted in Europe. It has been designed as an extensible and scalable data science platform for executing customised analytics tasks on data gathered from multiple blockchains and other contextually relevant off-chain sources, such as exchange rate services. Like other offerings, GraphSense provides a low-entry dashboard for investigating money flows. But, more importantly, it offers the flexibility to implement customised analytics procedures, either against an API or directly against the pre-computed network data sets, representing flows between addresses (address graph) and entities such as cryptoasset exchanges (entity graph). Furthermore, GraphSense introduces the notion of TagPacks, which support collaborative collection and provenance-aware curation of attribution tags, which de-anonymise real-world actors such as exchanges and are valuable data points in most analytics tasks. ",
-    "url": "/docs/",
-    
-    "relUrl": "/docs/"
-  },"7": {
     "doc": "GraphSense Connect 2023",
     "title": "Preliminary agenda",
     "content": " ",
     "url": "/events/#preliminary-agenda",
     
     "relUrl": "/events/#preliminary-agenda"
-  },"8": {
+  },"7": {
     "doc": "GraphSense Connect 2023",
     "title": "Ice breaker event",
     "content": "There will be an ice breaker event the evening before GraphSense Connect 2023. We will find a nice location and announce it asap. ",
     "url": "/events/#ice-breaker-event",
     
     "relUrl": "/events/#ice-breaker-event"
-  },"9": {
+  },"8": {
     "doc": "GraphSense Connect 2023",
     "title": "Morning session - User and Partner Stories",
     "content": "This session will delve into the experiences of our users and their diverse applications of GraphSense. Also listen to our partners and how they have transitioned to become integral attribution tag contributors. | Time | Topic | Speaker | . | 09:00 - 09:15 | Welcome |   | . | 09:15 - 09:30 | GraphSense: Vision and Future | Bernhard Haslhofer(CSH) | . | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets | Basile Verhulst(Chainlabs) | . | 10:00 - 10:30 | Coffee break |   | . | 10:30 - 11:00 | Tracing simple cases using Pathfinder | tbd. | . | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office | Barbara Krüll(ZCB Bamberg) | . | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation | tbd. | . | 12:00 - 12:30 | Project Atlas: Modeling cross-border flows | Jan Paulick(BIS Innovation Hub) | . | 12:30 - 13:30 | Lunch (Pizza at CSH) |   | . ",
     "url": "/events/#morning-session---user-and-partner-stories",
     
     "relUrl": "/events/#morning-session---user-and-partner-stories"
-  },"10": {
+  },"9": {
     "doc": "GraphSense Connect 2023",
     "title": "Afternoon session - Data sharing and Co-creation",
     "content": "In this session, we will focus on collaborative tagging, data sharing, and contributing to the GraphSense code base in general. We will explain TagPacks, our standard format for organizing and sharing attribution tags. We will also explain how one can become contributor to the system and how to create customized extensions on top of GraphSense. Finally, we will lay out and openly discuss our feature and release roadmap for the upcoming months. | Time | Topic | Speaker | . | 13:30 - 14:15 | How to collect and share attribution tags | tbd | . | 14:15 - 15:00 | How to contribute to GraphSense development | tbd | . | 15:00 - 15:30 | Coffee break |   | . | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up | Bernhard Haslhofer | . ",
     "url": "/events/#afternoon-session---data-sharing-and-co-creation",
     
     "relUrl": "/events/#afternoon-session---data-sharing-and-co-creation"
-  },"11": {
+  },"10": {
     "doc": "GraphSense Connect 2023",
     "title": "GraphSense Connect 2023",
     "content": "Open source, collaboration, and co-creation are fundamental principles that have driven the development of the GraphSense Cryptoasset Analytics platform over the years. The inaugural GraphSense Connect Event is designed to further this vision, aiming to connect users, developers, and stakeholders. It offers a dynamic forum to discuss ongoing initiatives and to collaboratively determine the future direction of the GraphSense platform. This event is open to everyone interested, but registration is required. Register The event is organized by the core developers of GraphSense and is scheduled for November 9th, 2023, at the Complexity Science Hub (CSH) Vienna. ",
     "url": "/events/",
     
     "relUrl": "/events/"
+  },"11": {
+    "doc": "About Graphsense hosted by Iknaio",
+    "title": "About Graphsense hosted by Iknaio",
+    "content": "Demand for cryptoasset analysis tools is increasing: businesses dealing with cryptoassets analyse transactions to fulfil compliance guidelines and regulations; law enforcement needs these techniques to track and trace illicit money flows; designers of distributed ledger technology analyse deployed systems to make informed system design decisions; finally, analysts in businesses and authorities must analyse transactional data to understand markets and capital market flows between significant players on the market. GraphSense is a cryptoasset analytics platform developed and hosted in Europe. It has been designed as an extensible and scalable data science platform for executing customised analytics tasks on data gathered from multiple blockchains and other contextually relevant off-chain sources, such as exchange rate services. Like other offerings, GraphSense provides a low-entry dashboard for investigating money flows. But, more importantly, it offers the flexibility to implement customised analytics procedures, either against an API or directly against the pre-computed network data sets, representing flows between addresses (address graph) and entities such as cryptoasset exchanges (entity graph). Furthermore, GraphSense introduces the notion of TagPacks, which support collaborative collection and provenance-aware curation of attribution tags, which de-anonymise real-world actors such as exchanges and are valuable data points in most analytics tasks. ",
+    "url": "/docs/",
+    
+    "relUrl": "/docs/"
   }
 }
