@@ -1,4 +1,0 @@
-[submodule "_site"]
-	path = _site
-	url = git@github.com:iknaio/iknaio.github.io.git
-	branch = gh-pages
