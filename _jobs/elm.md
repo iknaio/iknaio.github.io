@@ -4,7 +4,7 @@ title: Frontend Web Developer (Elm)
 location: Hybrid (Vienna / Austria / Anywhere)
 ---
 
-We are seeking an experienced Frontend Web Developer to assist in the design, development, and release of new features mainly for [our open source GUI application](https://github.com/graphsense/graphsense-dashboard) and related plugins. The ideal candidate will have a passion for open source technology and a strong desire to innovate and solve complex problems.
+We are seeking an experienced Frontend Web Developer (Elm) to assist in the design, development, and release of new features mainly for [our open source GUI application](https://github.com/graphsense/graphsense-dashboard) and related plugins. The ideal candidate will have a passion for open source technology and a strong desire to innovate and solve complex problems.
 
 Key Responsibilities:
 
