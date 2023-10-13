@@ -21,5 +21,5 @@ Requirements:
 * Strong analytical and problem-solving skills, with a proven ability to design and develop innovative solutions
 * Excellent communication and collaboration skills, with the ability to work in a fast-paced and dynamic environment
 
-If you are an experienced Frontend Web Developer with a passion for open source technology, and meet the above requirements, we would love to hear from you. We offer a competitive salary package, flexible working hours, and a dynamic and innovative work environment where you can contribute to cutting-edge projects and make a real impact.
+If you are an experienced Frontend Web Developer with a passion for Elm and open source technology, and meet the above requirements, we would love to hear from you. We offer a competitive salary package, flexible working hours, and a dynamic and innovative work environment where you can contribute to cutting-edge projects and make a real impact.
 
