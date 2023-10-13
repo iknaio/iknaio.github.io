@@ -1699,7 +1699,7 @@ div.frame { background-position-x: center; background-color: white; background-r
 
 main.page-content { flex-grow: 1; }
 
-.navbar-brand { width: calc(100% - 3 * $spacer - 1.5em); }
+.navbar-brand { width: calc(100% - 3 * 1rem - 1.5em); }
 
 @media (min-width: 576px) { .navbar-brand { max-width: 320px; } }
 
