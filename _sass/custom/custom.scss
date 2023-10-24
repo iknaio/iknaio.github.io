@@ -1,18 +1,14 @@
 /* just-the-docs overrides */
 
-.search-active .main {
-    position: relative;
-}
-
-.search-active .search {
-    z-index: 2000;
-}
-
-.btn-primary {
-    background-image: none;
-}
-
 a:not([class]) {
     text-decoration-color: inherit;
 }
 
+.btn:hover {
+    background-image: none;
+}
+
+
+.site-title {
+    display: none;
+}

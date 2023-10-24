@@ -34,6 +34,7 @@ plugins:
   # - jekyll-feed
   - jekyll-responsive-image
   - jekyll-seo-tag
+  - jekyll-sass-converter
 
 header_pages:
   - services.md
@@ -90,3 +91,7 @@ collections:
 
 theme: just-the-docs
 color_scheme: docs
+
+
+sass:
+  style: compact

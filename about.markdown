@@ -2,6 +2,7 @@
 layout: page
 title: About us
 nav_exclude: true
+search_exclude: true
 ---
 
 Founded in 2021, Iknaio provides operational services around the open-source cryptoasset analytics platform GraphSense. Iknaio offers these services to investigators from national authorities, law enforcement agencies, security companies, and the payment industry to help them uncover and trace criminally relevant crypto-based transactions. Iknaio also offers several customer-specific extensions built on top of GraphSense. Iknaio offers a cryptoasset analytics platform that has been designed as data science platform from the very beginning. Like other tools it provides a dashboard for manual investigations but, more importantly, each investigation step is also executable automatically. This is a pre-condition for automation and the enabler for establishing automated forensics, compliance, and reporting workflows.
@@ -10,7 +11,7 @@ Founded in 2021, Iknaio provides operational services around the open-source cry
 
 We have a strong background in science and a passion for technology and see that some techniques used in cryptoassets could advance innovation in the financial sector.
 
-While we are enthusiastic about certain technologies used in cryptoassets, we are committed to preventing their misuse for illicit activities. We believe that it is essential to provide vetted authorities with the necessary tools to combat such activities efficiently. Furthermore, we recognize that sustainable growth and long-term trust in emerging technologies depend on a comprehensive understanding and management of risks.
+While we certain technologies used in cryptoassets interesting, we are committed to preventing their misuse for illicit activities. We believe that it is essential to provide vetted authorities with the necessary tools to combat such activities efficiently. Furthermore, we recognize that sustainable growth and long-term trust in emerging technologies depend on a comprehensive understanding and management of risks.
 
 To this end, we must ensure that the high volatility and risk inherent in the crypto space do not negatively impact users in the traditional financial sector. This requires robust risk management protocols that can prevent any potential failures in the crypto market from spilling over and causing harm to users in more established financial systems. Therefore, our vision is to provide services that help authorities and businesses in understanding money flows in the cryptoasset ecosystem.
 We acknowledge that current investigation practices for cryptoassets have significant limitations. Response times are often slow due to the high cost and limited availability of specialized tools. Furthermore, investigators frequently find themselves working on the same cases without the benefit of knowledge sharing, which can lead to inefficiencies and redundancies. Finally, the highly complex nature of money laundering networks, which are often generated and controlled by machines, can make it challenging for investigators to follow the money manually.
@@ -35,6 +36,10 @@ In summary, our vision is to streamline and automate cryptoasset investigations 
 Iknaio is a limited liability company headquartered in Austria. We are proud to be a spin-off of the Complexity Science Hub, an internationally recognized center of excellence for complexity science research. Our founding owners bring a wealth of scientific, technical, and domain expertise to our team, particularly in cryptoasset analytics.
 
 At Iknaio, we believe that our diverse and highly experienced ownership team is the foundation of our success. By combining cutting-edge scientific research with real-world expertise in software development, data engineering, and law enforcement, we are uniquely positioned to provide our clients with innovative, effective, and trustworthy solutions for the challenges posed by cryptoasset investigations.
+
+## Gender and Diversity
+
+At Iknaio, we understand the significance of diversity and gender equity. We believe that a varied workforce brings different perspectives, which can foster innovation and enhance our overall performance. Our commitment extends beyond just hiring practices; we strive to create an environment where everyone is treated with respect and given equal opportunities. As we navigate the tech industry, our dedication to diversity and inclusion remains consistent, ensuring that we stay attuned to the diverse needs of the communities we serve.
 
 ## Disclaimer
 

@@ -1,3 +1,8 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -107,7 +112,7 @@ $logo-width: 320px;
 
 
 .navbar-brand {
-    width: calc(100% - 3 * $spacer - 1.5em); // latter is hard-coded bootstrap toggler icon width 
+    width: calc(100% - 3 * 1rem - 1.5em); // latter is hard-coded bootstrap toggler icon width 
     @include media-breakpoint-up(sm) {
         max-width: $logo-width;
     }
@@ -263,7 +268,7 @@ hr {
         background-position: bottom;
         background-repeat: repeat-x;
         background-size: cover;
-        min-height: min(21vw, 400px);
+        min-height: calc(min(21vw, 400px));
         max-height: 400px;
         padding-bottom: 5rem;
         a.bold {
@@ -564,7 +569,7 @@ a.project {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: min(25vw, 250px);
+    height: calc(min(25vw, 250px));
     background-color: $bg-grey;
     background-image: url("/assets/img/bg_head.svg");
     background-position: bottom;
@@ -786,5 +791,37 @@ tr:nth-child(even) {
     table tbody td {
         display: block;
         text-align: center;
+    }
+}
+
+/* youtube */
+
+.embed-container iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+/* just the docs overrides */
+
+
+@include media-breakpoint-up(md) {
+    .search-active .main {
+        position: relative;
+    }
+
+    .search-active .search {
+        z-index: 2000;
+    }
+
+    .btn-primary {
+        background-image: none;
+    }
+
+    .main {
+        margin-top: -50px;
+    }
+
+    .site-nav {
+        padding-top: 1rem;
     }
 }
