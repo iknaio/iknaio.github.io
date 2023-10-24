@@ -2,7 +2,6 @@
 layout: docs
 title: Inspecting addresses
 nav_order: 30
-nav_exclude: true
 published: true
 ---
 
