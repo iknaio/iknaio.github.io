@@ -89,5 +89,12 @@
     "url": "/docs/",
     
     "relUrl": "/docs/"
+  },"13": {
+    "doc": "Inspecting addresses",
+    "title": "Inspecting addresses",
+    "content": "This video will show you how to inspect Cryptoasset addresses and transactions using Iknaio Pathfinder. After this tutorial, you will know how to search for a given Cryptoasset address or transaction and view statistical properties like current balance or transaction history. ",
+    "url": "/docs/inspecting_addresses.html",
+    
+    "relUrl": "/docs/inspecting_addresses.html"
   }
 }

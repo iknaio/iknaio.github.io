@@ -1901,7 +1901,9 @@ article h2, article .h2 { font-weight: normal; }
 
 .bio-image::after { content: ""; display: block; padding-bottom: 100%; }
 
-.currency { background-color: #327878; height: 130px; width: 130px; display: flex; align-items: center; justify-content: center; border-radius: 100%; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset; margin: 1rem; }
+.currency { display: flex; align-items: center; justify-content: center; margin: 5rem; font-size: 1.2rem; font-weight: 400; }
+
+.currency img { padding: 14px; }
 
 iframe.order { width: 100%; height: 100vh; }
 
