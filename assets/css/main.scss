@@ -657,7 +657,9 @@ article {
     justify-content: center;
     //border-radius: 100%;
     //box-shadow: 2px 2px 4px rgba(0,0,0,0.5) inset;
-    margin: $spacer;
+    margin: $spacer*5;
+    font-size: 1.2rem;
+    font-weight: 400;
 
     img {
         padding: 14px;
