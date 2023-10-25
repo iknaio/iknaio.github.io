@@ -49,7 +49,7 @@ tag contributors.
 | 10:00 - 10:30 | Coffee break                                                              |                                       |
 | 10:30 - 11:00 | Tracing simple cases using Pathfinder                                     | tbd.                                  |
 | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office    | Barbara Krüll<br>([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))        |
-| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | tbd.                                  |
+| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | [Roman Taudes](https://www.rechtsanwalt-taudes.at/)                                 |
 | 12:00 - 12:30 | Project Atlas: Modeling cross-border flows                                | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
 | 12:30 - 13:30 | Lunch (Pizza at CSH)                                                      |                                       |
 
@@ -70,8 +70,8 @@ and release roadmap for the upcoming months.
 | Time          | Topic                                               | Speaker            |
 |:-------------:|:---------------------------------------------------:|:------------------:|
 | 13:30 - 14:15 | How to collect and share attribution tags           | tbd				   |
-| 14:15 - 15:00 | How to contribute to GraphSense development         | tbd                |
+| 14:15 - 15:00 | How to contribute to GraphSense development         | Michael Fröwis, Matthias Rella, Rainer Stütz<br>[Iknaio](https://www.ikna.io/)     |
 | 15:00 - 15:30 | Coffee break                                        |                    |
-| 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer |
+| 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer<br>([CSH](https://www.csh.ac.at/)) |
 
 </div>
