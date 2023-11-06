@@ -26,7 +26,7 @@ registration is required.
 The event is organized by the core developers of GraphSense and is scheduled
 for **November 9th, 2023**, at the [Complexity Science Hub (CSH) Vienna](https://csh.ac.at).
 
-# Preliminary agenda
+# Agenda
 
 ## Ice breaker event
 
