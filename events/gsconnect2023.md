@@ -31,7 +31,7 @@ for **November 9th, 2023**, at the [Complexity Science Hub (CSH) Vienna](https:/
 ## Ice breaker event
 
 For those arriving the evening before our event, we will organize a little get-together at
-[Palmenhaus Wien](https://www.palmenhaus.at/) starting at 8pm. Please contact the organizer
+[Palmenhaus Wien](https://www.palmenhaus.at/) starting at 7:30pm. Please contact the organizer
 if you would like to join.
 
 
