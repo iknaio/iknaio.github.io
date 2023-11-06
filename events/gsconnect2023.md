@@ -30,8 +30,10 @@ for **November 9th, 2023**, at the [Complexity Science Hub (CSH) Vienna](https:/
 
 ## Ice breaker event
 
-There will be an ice breaker event the evening before GraphSense Connect 2023. We will find
-a nice location and announce it asap.
+For those arriving the evening before our event, we will organize a little get-together at
+[Palmenhaus Wien](https://www.palmenhaus.at/) starting at 8pm. Please contact the organizer
+if you would like to join.
+
 
 ## Morning session - User and Partner Stories
 
@@ -70,7 +72,7 @@ and release roadmap for the upcoming months.
 
 | Time          | Topic                                               | Speaker            |
 |:-------------:|:---------------------------------------------------:|:------------------:|
-| 13:30 - 14:15 | How to collect and share attribution tags           | tbd				   |
+| 13:30 - 14:15 | How to collect and share attribution tags           | Melitta Dragaschnig<br>([AIT](https://www.ait.ac.at/))|
 | 14:15 - 15:00 | How to contribute to GraphSense development         | Michael Fröwis, Matthias Rella, Rainer Stütz<br>[Iknaio](https://www.ikna.io/)     |
 | 15:00 - 15:30 | Coffee break                                        |                    |
 | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer, Karl Zettl<br>([CSH](https://www.csh.ac.at/) + [Iknaio](https://www.ikna.io/)) |
