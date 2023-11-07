@@ -1,6 +1,7 @@
 ---
 layout: page
 title: GraphSense Connect 2023
+subtitle: 09. November 2023
 nav_exclude: true
 ---
 
@@ -23,14 +24,16 @@ registration is required.
 </div>
 
 The event is organized by the core developers of GraphSense and is scheduled
-for November 9th, 2023, at the [Complexity Science Hub (CSH) Vienna](https://csh.ac.at).
+for **November 9th, 2023**, at the [Complexity Science Hub (CSH) Vienna](https://csh.ac.at).
 
-# Preliminary agenda
+# Agenda
 
 ## Ice breaker event
 
-There will be an ice breaker event the evening before GraphSense Connect 2023. We will find
-a nice location and announce it asap.
+For those arriving the evening before our event, we will organize a little get-together at
+[Palmenhaus Wien](https://www.palmenhaus.at/) starting at 7:30pm. Please contact the organizer
+if you would like to join.
+
 
 ## Morning session - User and Partner Stories
 
@@ -47,10 +50,10 @@ tag contributors.
 | 09:15 - 09:30 | GraphSense: Vision and Future                                             | [Bernhard Haslhofer](https://bernhardhaslhofer.info/)<br>([CSH](https://www.csh.ac.at/))           |
 | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets                               | Basile Verhulst<br>([Chainlabs](https://chainlabs.ai/))        |
 | 10:00 - 10:30 | Coffee break                                                              |                                       |
-| 10:30 - 11:00 | Tracing simple cases using Pathfinder                                     | tbd.                                  |
+| 10:30 - 11:00 | Tracing simple cases using Pathfinder                                     | Tobias Müller<br>Criminal Police Regensburg                                  |
 | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office    | Barbara Krüll<br>([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))        |
-| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | tbd.                                  |
-| 12:00 - 12:30 | Project Atlas: Modeling cross-border flows                                | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
+| 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | [Roman Taudes](https://www.rechtsanwalt-taudes.at/)                                 |
+| 12:00 - 12:30 | A macro perspective: Modeling cross-border flows                               | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
 | 12:30 - 13:30 | Lunch (Pizza at CSH)                                                      |                                       |
 
 </div>
@@ -69,9 +72,9 @@ and release roadmap for the upcoming months.
 
 | Time          | Topic                                               | Speaker            |
 |:-------------:|:---------------------------------------------------:|:------------------:|
-| 13:30 - 14:15 | How to collect and share attribution tags           | tbd				   |
-| 14:15 - 15:00 | How to contribute to GraphSense development         | tbd                |
+| 13:30 - 14:15 | How to collect and share attribution tags           | Melitta Dragaschnig<br>([AIT](https://www.ait.ac.at/))|
+| 14:15 - 15:00 | How to contribute to GraphSense development         | Michael Fröwis, Matthias Rella, Rainer Stütz<br>[Iknaio](https://www.ikna.io/)     |
 | 15:00 - 15:30 | Coffee break                                        |                    |
-| 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer |
+| 15:30 - 16:00 | GraphSense feature roadmap + Wrap up                | Bernhard Haslhofer, Karl Zettl<br>([CSH](https://www.csh.ac.at/) + [Iknaio](https://www.ikna.io/)) |
 
 </div>
