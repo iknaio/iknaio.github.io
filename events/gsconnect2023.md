@@ -53,7 +53,7 @@ tag contributors.
 | 10:30 - 11:00 | Tracing simple cases using Pathfinder                                     | Tobias Müller<br>Criminal Police Regensburg                                  |
 | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office    | Barbara Krüll<br>([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))        |
 | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation             | [Roman Taudes](https://www.rechtsanwalt-taudes.at/)                                 |
-| 12:00 - 12:30 | Project Atlas: Modeling cross-border flows                                | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
+| 12:00 - 12:30 | A macro perspective: Modeling cross-border flows                               | Jan Paulick<br>([BIS Innovation Hub](https://www.bis.org/about/bisih/locations/eurosystem.htm))   |
 | 12:30 - 13:30 | Lunch (Pizza at CSH)                                                      |                                       |
 
 </div>
