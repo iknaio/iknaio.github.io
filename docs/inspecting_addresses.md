@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Inspecting addresses
-nav_order: 30
+nav_order: 15
 published: true
 ---
 
