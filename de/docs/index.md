@@ -2,7 +2,7 @@
 layout: docs
 title: Übersicht
 nav_order: 5
-permalink: /docs
+permalink: /docs/
 ---
 
 Iknaio offers services centered around [GraphSense](https://github.com/graphsense), a recognized open-source Cryptoasset Analytics platform. Among our services is hosting this platform for our clients' convenience.
