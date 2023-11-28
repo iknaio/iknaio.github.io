@@ -65,9 +65,9 @@
     "doc": "Overview",
     "title": "Overview",
     "content": "Iknaio offers services centered around GraphSense, a recognized open-source Cryptoasset Analytics platform. Among our services is hosting this platform for our clients’ convenience. For users looking to manually inspect and trace transactions, the Iknaio Pathfinder is available at https://app.ikna.io. For those interested in workflow automation, the Iknaio Automator can be accessed at https://api.ikna.io. By walking through this tutorial and watching the embedded videos you will learn how to use both investigation approaches. ",
-    "url": "/docs",
+    "url": "/docs/",
     
-    "relUrl": "/docs"
+    "relUrl": "/docs/"
   },"10": {
     "doc": "Using Iknaio Pathfinder",
     "title": "Using Iknaio Pathfinder",
