@@ -32,6 +32,7 @@ safe: false
 # Build settings
 plugins:
   # - jekyll-feed
+  - jekyll-polyglot
   - jekyll-responsive-image
   - jekyll-seo-tag
   - jekyll-sass-converter
@@ -52,7 +53,7 @@ responsive_image:
     - width: 480
     - width: 320
   strip: true
-  save_to_source: false
+  save_to_source: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -95,3 +96,15 @@ color_scheme: docs
 
 sass:
   style: compact
+
+
+languages:
+  - en
+  - de
+
+default_lang: en
+exclude_from_localization: 
+  - assets
+  - assets/resized
+parallel_localization: true
+lang_from_path: true

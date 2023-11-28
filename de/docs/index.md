@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Overview
+title: Übersicht
 nav_order: 5
 permalink: /docs
 ---
