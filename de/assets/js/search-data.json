@@ -1,0 +1,121 @@
+{"0": {
+    "doc": "Annotate investigations",
+    "title": "Annotate investigations",
+    "content": "This video we will show you how to annotate interesting addresses with additional tags and highlight relevant payment paths. ",
+    "url": "/docs/annotate-investigations",
+    
+    "relUrl": "/docs/annotate-investigations"
+  },"1": {
+    "doc": "Getting access",
+    "title": "Getting access",
+    "content": "To utilize the Iknaio Pathfinder or Automator, you’ll first require an API key. Individual users may obtain keys here. In contrast, institutional users are directly provided keys at their registered email addresses. Below is a tutorial video guiding you on accessing the Iknaio Pathfinder using your API key. ",
+    "url": "/docs/api-key",
+    
+    "relUrl": "/docs/api-key"
+  },"2": {
+    "doc": "Export and share investigations",
+    "title": "Export and share investigations",
+    "content": "This video we will show you how to export your investigation and additional tags as a file and share them with your colleagues. You will also learn how you can import them without sharing information with anyone else. ",
+    "url": "/docs/export-investigations",
+    
+    "relUrl": "/docs/export-investigations"
+  },"3": {
+    "doc": "Follow the money",
+    "title": "Follow the money",
+    "content": "This video will show you how to follow the money using Iknaio Pathfinder. After this tutorial, you will know how to trace money flows between crypto asset addresses until you find a specific actor, like a cryptoasset exchange where the money is converted back to fiat money. You will also learn how to use the built-in path search function to find paths automatically. ",
+    "url": "/docs/follow-the-money",
+    
+    "relUrl": "/docs/follow-the-money"
+  },"4": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Agenda",
+    "content": " ",
+    "url": "/events/gsconnect2023.html#agenda",
+    
+    "relUrl": "/events/gsconnect2023.html#agenda"
+  },"5": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Ice breaker event",
+    "content": "For those arriving the evening before our event, we will organize a little get-together at Palmenhaus Wien starting at 7:30pm. Please contact the organizer if you would like to join. ",
+    "url": "/events/gsconnect2023.html#ice-breaker-event",
+    
+    "relUrl": "/events/gsconnect2023.html#ice-breaker-event"
+  },"6": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Morning session - User and Partner Stories",
+    "content": "This session will delve into the experiences of our users and their diverse applications of GraphSense. Also listen to our partners and how they have transitioned to become integral attribution tag contributors. | Time | Topic | Speaker | . | 09:00 - 09:15 | Welcome |   | . | 09:15 - 09:30 | GraphSense: Vision and Future | Bernhard Haslhofer(CSH) | . | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets | Basile Verhulst(Chainlabs) | . | 10:00 - 10:30 | Coffee break |   | . | 10:30 - 11:00 | Tracing simple cases using Pathfinder | Tobias MüllerCriminal Police Regensburg | . | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office | Barbara Krüll(ZCB Bamberg) | . | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation | Roman Taudes | . | 12:00 - 12:30 | A macro perspective: Modeling cross-border flows | Jan Paulick(BIS Innovation Hub) | . | 12:30 - 13:30 | Lunch (Pizza at CSH) |   | . ",
+    "url": "/events/gsconnect2023.html#morning-session---user-and-partner-stories",
+    
+    "relUrl": "/events/gsconnect2023.html#morning-session---user-and-partner-stories"
+  },"7": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Afternoon session - Data sharing and Co-creation",
+    "content": "In this session, we will focus on collaborative tagging, data sharing, and contributing to the GraphSense code base in general. We will explain TagPacks, our standard format for organizing and sharing attribution tags. We will also explain how one can become contributor to the system and how to create customized extensions on top of GraphSense. Finally, we will lay out and openly discuss our feature and release roadmap for the upcoming months. | Time | Topic | Speaker | . | 13:30 - 14:15 | How to collect and share attribution tags | Melitta Dragaschnig(AIT) | . | 14:15 - 15:00 | How to contribute to GraphSense development | Michael Fröwis, Matthias Rella, Rainer StützIknaio | . | 15:00 - 15:30 | Coffee break |   | . | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up | Bernhard Haslhofer, Karl Zettl(CSH + Iknaio) | . ",
+    "url": "/events/gsconnect2023.html#afternoon-session---data-sharing-and-co-creation",
+    
+    "relUrl": "/events/gsconnect2023.html#afternoon-session---data-sharing-and-co-creation"
+  },"8": {
+    "doc": "GraphSense Connect 2023",
+    "title": "GraphSense Connect 2023",
+    "content": "Open source, collaboration, and co-creation are fundamental principles that have driven the development of the GraphSense Cryptoasset Analytics platform over the years. The inaugural GraphSense Connect Event is designed to further this vision, aiming to connect users, developers, and stakeholders. It offers a dynamic forum to discuss ongoing initiatives and to collaboratively determine the future direction of the GraphSense platform. This event is open to everyone interested, but registration is required. Register The event is organized by the core developers of GraphSense and is scheduled for November 9th, 2023, at the Complexity Science Hub (CSH) Vienna. ",
+    "url": "/events/gsconnect2023.html",
+    
+    "relUrl": "/events/gsconnect2023.html"
+  },"9": {
+    "doc": "Using Iknaio Pathfinder",
+    "title": "Using Iknaio Pathfinder",
+    "content": "Iknaio Pathfinder provids users with the ability to easily inspect and trace cryptoasset payment flows using a simple visual dashboard. ",
+    "url": "/de/docs/pathfinder/",
+    
+    "relUrl": "/de/docs/pathfinder/"
+  },"10": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Agenda",
+    "content": " ",
+    "url": "/events/#agenda",
+    
+    "relUrl": "/events/#agenda"
+  },"11": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Ice breaker event",
+    "content": "For those arriving the evening before our event, we will organize a little get-together at Palmenhaus Wien starting at 7:30pm. Please contact the organizer if you would like to join. ",
+    "url": "/events/#ice-breaker-event",
+    
+    "relUrl": "/events/#ice-breaker-event"
+  },"12": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Morning session - User and Partner Stories",
+    "content": "This session will delve into the experiences of our users and their diverse applications of GraphSense. Also listen to our partners and how they have transitioned to become integral attribution tag contributors. | Time | Topic | Speaker | . | 09:00 - 09:15 | Welcome |   | . | 09:15 - 09:30 | GraphSense: Vision and Future | Bernhard Haslhofer(CSH) | . | 09:30 - 10:00 | The journey to tagging 200M bitcoin wallets | Basile Verhulst(Chainlabs) | . | 10:00 - 10:30 | Coffee break |   | . | 10:30 - 11:00 | Tracing simple cases using Pathfinder | Tobias MüllerCriminal Police Regensburg | . | 11:00 - 11:30 | Connecting the Cases: Experiences from the Bavarian Prosecutors Office | Barbara Krüll(ZCB Bamberg) | . | 11:30 - 12:00 | Tracing a complex case: Towards forensics workflow automation | Roman Taudes | . | 12:00 - 12:30 | A macro perspective: Modeling cross-border flows | Jan Paulick(BIS Innovation Hub) | . | 12:30 - 13:30 | Lunch (Pizza at CSH) |   | . ",
+    "url": "/events/#morning-session---user-and-partner-stories",
+    
+    "relUrl": "/events/#morning-session---user-and-partner-stories"
+  },"13": {
+    "doc": "GraphSense Connect 2023",
+    "title": "Afternoon session - Data sharing and Co-creation",
+    "content": "In this session, we will focus on collaborative tagging, data sharing, and contributing to the GraphSense code base in general. We will explain TagPacks, our standard format for organizing and sharing attribution tags. We will also explain how one can become contributor to the system and how to create customized extensions on top of GraphSense. Finally, we will lay out and openly discuss our feature and release roadmap for the upcoming months. | Time | Topic | Speaker | . | 13:30 - 14:15 | How to collect and share attribution tags | Melitta Dragaschnig(AIT) | . | 14:15 - 15:00 | How to contribute to GraphSense development | Michael Fröwis, Matthias Rella, Rainer StützIknaio | . | 15:00 - 15:30 | Coffee break |   | . | 15:30 - 16:00 | GraphSense feature roadmap + Wrap up | Bernhard Haslhofer, Karl Zettl(CSH + Iknaio) | . ",
+    "url": "/events/#afternoon-session---data-sharing-and-co-creation",
+    
+    "relUrl": "/events/#afternoon-session---data-sharing-and-co-creation"
+  },"14": {
+    "doc": "GraphSense Connect 2023",
+    "title": "GraphSense Connect 2023",
+    "content": "Open source, collaboration, and co-creation are fundamental principles that have driven the development of the GraphSense Cryptoasset Analytics platform over the years. The inaugural GraphSense Connect Event is designed to further this vision, aiming to connect users, developers, and stakeholders. It offers a dynamic forum to discuss ongoing initiatives and to collaboratively determine the future direction of the GraphSense platform. This event is open to everyone interested, but registration is required. Register The event is organized by the core developers of GraphSense and is scheduled for November 9th, 2023, at the Complexity Science Hub (CSH) Vienna. ",
+    "url": "/events/",
+    
+    "relUrl": "/events/"
+  },"15": {
+    "doc": "Übersicht",
+    "title": "Übersicht",
+    "content": "Iknaio offers services centered around GraphSense, a recognized open-source Cryptoasset Analytics platform. Among our services is hosting this platform for our clients’ convenience. For users looking to manually inspect and trace transactions, the Iknaio Pathfinder is available at https://app.ikna.io. For those interested in workflow automation, the Iknaio Automator can be accessed at https://api.ikna.io. By walking through this tutorial and watching the embedded videos you will learn how to use both investigation approaches. ",
+    "url": "/docs",
+    
+    "relUrl": "/docs"
+  },"16": {
+    "doc": "Inspecting addresses",
+    "title": "Inspecting addresses",
+    "content": "This video will show you how to inspect Cryptoasset addresses and transactions using Iknaio Pathfinder. After this tutorial, you will know how to search for a given Cryptoasset address or transaction and view statistical properties like current balance or transaction history. ",
+    "url": "/docs/inspecting-addresses",
+    
+    "relUrl": "/docs/inspecting-addresses"
+  }
+}
