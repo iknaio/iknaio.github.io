@@ -62,12 +62,12 @@
     
     "relUrl": "/events/gsconnect2023.html"
   },"9": {
-    "doc": "Using Iknaio Pathfinder",
-    "title": "Using Iknaio Pathfinder",
-    "content": "Iknaio Pathfinder provids users with the ability to easily inspect and trace cryptoasset payment flows using a simple visual dashboard. ",
-    "url": "/de/docs/pathfinder/",
+    "doc": "Übersicht",
+    "title": "Übersicht",
+    "content": "Iknaio offers services centered around GraphSense, a recognized open-source Cryptoasset Analytics platform. Among our services is hosting this platform for our clients’ convenience. For users looking to manually inspect and trace transactions, the Iknaio Pathfinder is available at https://app.ikna.io. For those interested in workflow automation, the Iknaio Automator can be accessed at https://api.ikna.io. By walking through this tutorial and watching the embedded videos you will learn how to use both investigation approaches. ",
+    "url": "/docs/",
     
-    "relUrl": "/de/docs/pathfinder/"
+    "relUrl": "/docs/"
   },"10": {
     "doc": "GraphSense Connect 2023",
     "title": "Agenda",
@@ -104,12 +104,12 @@
     
     "relUrl": "/events/"
   },"15": {
-    "doc": "Übersicht",
-    "title": "Übersicht",
-    "content": "Iknaio offers services centered around GraphSense, a recognized open-source Cryptoasset Analytics platform. Among our services is hosting this platform for our clients’ convenience. For users looking to manually inspect and trace transactions, the Iknaio Pathfinder is available at https://app.ikna.io. For those interested in workflow automation, the Iknaio Automator can be accessed at https://api.ikna.io. By walking through this tutorial and watching the embedded videos you will learn how to use both investigation approaches. ",
-    "url": "/docs/",
+    "doc": "Using Iknaio Pathfinder",
+    "title": "Using Iknaio Pathfinder",
+    "content": "Iknaio Pathfinder provids users with the ability to easily inspect and trace cryptoasset payment flows using a simple visual dashboard. ",
+    "url": "/de/docs/pathfinder/",
     
-    "relUrl": "/docs/"
+    "relUrl": "/de/docs/pathfinder/"
   },"16": {
     "doc": "Inspecting addresses",
     "title": "Inspecting addresses",
