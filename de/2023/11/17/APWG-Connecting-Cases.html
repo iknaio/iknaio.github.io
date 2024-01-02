@@ -126,7 +126,7 @@
     <div class="row">
       <div class="col-10 col-sm-6">
         <ul class="px-3 list-unstyled contact-list">
-            <li>© Iknaio Cryptoasset Analytics GmbH 2023</li>
+            <li>© Iknaio Cryptoasset Analytics GmbH 2024</li>
             <li>Vienna/Europe</li>
             <li><a class="u-email" href="mailto:contact@ikna.io">contact@ikna.io</a></li>
         </ul>
@@ -158,7 +158,7 @@
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 </style>
-<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="/de/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a id="cookie-notice-decline" class="btn btn-secondary btn-sm">Decline</a><a href="/de/privacy" class="btn btn-secondary btn-sm">More info</a></div>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -191,11 +191,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','G-TPJK719TS4');
 
 
+    } else if(readCookie('cookie-notice-dismissed')=='false') {
+        document.getElementById('cookie-notice').style.display = 'none';
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+    document.getElementById('cookie-notice-decline').addEventListener("click",function() {
+        createCookie('cookie-notice-dismissed','false',31);
         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
     });
