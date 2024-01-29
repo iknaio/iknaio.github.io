@@ -10,4 +10,3 @@ nav_exclude: true
 {% include packages.html %}
 {% include projects.html %}
 {% include partners.html %}
-<!--{% include jobs.html %}-->
